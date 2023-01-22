@@ -1,0 +1,287 @@
+@import "../../custom.scss";
+
+.home-container {
+  .nosotros-header {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .nosotros-header-item {
+      width: 50%;
+      &:nth-child(2) {
+        font-family: "Sofia Pro";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  .about-us-container {
+    &.white {
+      background-color: $white;
+    }
+  }
+
+  .nosotros-images {
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin: 32px auto;
+
+    .nosotros-image-item {
+      margin-right: 16px;
+      .left-image-container {
+        margin-top: 32px;
+        padding-left: 120px;
+      }
+    }
+  }
+
+  .nosotros-item {
+    width: 50%;
+
+    &.right {
+      text-align: right;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      font-family: "Sofia Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: $textHight;
+    }
+  }
+
+  .servicios-first-container-text {
+    display: flex;
+    margin-bottom: 60px;
+
+    & > div {
+      width: 50%;
+    }
+    .title {
+      font-family: "Sofia Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: $textHight;
+    }
+
+    .text {
+      font-family: "Sofia Pro";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .servicios-first-container-cards {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .card {
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 399px;
+      height: 244px;
+      background: $white;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+      border-radius: 6px;
+
+      &.top {
+        margin-top: 124px;
+      }
+
+      .image {
+        margin-bottom: 10px;
+      }
+
+      .text {
+        font-family: "Sofia Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        width: 224px;
+      }
+    }
+  }
+
+  .home-body {
+    &.services {
+      background: $lightGray;
+    }
+  }
+
+  .about-us-container {
+    &.services {
+      background: $white;
+      .about-us-item {
+        width: 50%;
+        &.image {
+          text-align: right;
+        }
+
+        h1 {
+          font-family: "Sofia Pro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 48px;
+          color: $textHight;
+        }
+
+        .checks {
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+
+          .text {
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+
+    &.control {
+      height: 893px;
+      .about-us-item {
+        width: 50%;
+
+        &:nth-child(1) {
+          position: relative;
+        }
+        .overlapped-image-1 {
+        }
+        .overlapped-image-2 {
+          position: absolute;
+          top: -10px;
+          left: 32px;
+        }
+
+        .header {
+          .header-tex-blue {
+            display: flex;
+            align-items: center;
+            color: $secondary;
+            .line {
+              width: 88px;
+              height: 1px;
+              left: 730px;
+              top: 3544px;
+              background: #00beda;
+            }
+            span {
+              margin-left: 16px;
+            }
+          }
+          .header-tex {
+            font-family: "Sofia Pro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: $textHight;
+            width: 504px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+          }
+        }
+
+        .dispositivo-card {
+          width: 502px;
+          height: 192px;
+          left: 730px;
+          top: 3718px;
+          background: $white;
+          box-shadow: 0px 26px 40px rgba(0, 0, 0, 0.12);
+          border-radius: 16px;
+          padding: 48px 88px;
+          margin-bottom: 26px;
+          p {
+            font-family: "Sofia Pro";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 32px;
+            color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .servicios-first-container-text {
+      flex-direction: column;
+
+      & > div {
+        width: auto;
+      }
+
+      .title {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+    }
+
+    .servicios-first-container-cards {
+      flex-direction: column;
+      width: auto;
+
+      .card:not(:first-child) {
+        margin-top: 28px !important;
+      }
+
+      .card {
+        &.top {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .about-us-container.services {
+      margin-bottom: 28px;
+      margin-top: 28px;
+
+      .about-us-item {
+        width: auto;
+        img {
+          width: 100%;
+        }
+        &.image {
+          margin-bottom: 28px;
+        }
+      }
+    }
+
+    .about-us-container.control {
+      width: auto;
+      height: auto;
+      .about-us-item {
+        width: auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

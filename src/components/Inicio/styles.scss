@@ -1,0 +1,266 @@
+@import "../../custom.scss";
+
+.home-container {
+  .top-image {
+    background-color: #07093e;
+    background-image: url(~/public/static/images/elipse.png);
+    width: 100%;
+    height: 760px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    .top-inner-content {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      align-items: center;
+      justify-content: center;
+
+      > div {
+        width: 392px;
+      }
+      h1 {
+        font-family: "Sofia Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 68px;
+        display: flex;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.87);
+      }
+      .top-slogan {
+        margin-top: 32px;
+      }
+
+      button {
+        margin-top: 32px;
+      }
+    }
+  }
+
+  .home-body {
+    padding: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .row > h1 {
+      font-family: "Sofia Pro";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: $textHight;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      .card-empty {
+        width: 400px;
+        height: 380px;
+        margin-right: 16px;
+        margin-bottom: 44px;
+      }
+    }
+  }
+
+  .about-us-container {
+    width: 100%;
+    height: 590px;
+    left: 0px;
+    top: 0px;
+    background: $lightGray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 104px;
+
+    .about-us-item:nth-child(2) {
+      width: 367px;
+    }
+  }
+
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%402576' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%402576' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+
+  .carousel-control-next {
+    right: -100px;
+  }
+
+  .carousel-control-prev {
+    left: -100px;
+  }
+
+  .about-us-client-item {
+    width: 50%;
+  }
+
+  .our-clients-container {
+    width: 100%;
+    height: 590px;
+    background: $lightGray;
+    display: flex;
+    justify-content: space-between;
+    padding: 104px;
+  }
+
+  .client-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 45px;
+
+    // &.pad {
+    //   padding: 0 205px;
+    // }
+  }
+
+  .client-image-container {
+    width: 214px;
+    height: 87px;
+    background: #ffffff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &.diff {
+      img {
+        top: -17px;
+      }
+    }
+
+    img {
+      width: 100%;
+      position: absolute;
+      top: -4px;
+    }
+  }
+
+  .our-client-item {
+    &.num1 {
+      width: 40%;
+    }
+    &.num2 {
+      width: 60%;
+    }
+  }
+
+  .our-client-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .client-title-line {
+      width: 88px;
+      height: 1px;
+      border-top: 1px solid $secondary;
+      margin-right: 16px;
+    }
+
+    span {
+      font-family: "Open Sans";
+      font-style: italic;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: $secondary;
+    }
+  }
+
+  .our-client-text {
+    color: $textHight;
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  @media (max-width: 1023px) {
+    .cards {
+      flex-direction: column;
+      .card-empty {
+        display: none;
+      }
+
+      .card-container {
+        margin-right: unset;
+      }
+    }
+
+    .home-body {
+      padding: 104px 16px;
+    }
+
+    .about-us-container {
+      display: flex;
+      flex-direction: column;
+      padding: 104px 16px;
+      height: 670px;
+
+      img {
+        width: 328px;
+        height: 228px;
+      }
+
+      .about-us-item:nth-child(2) {
+        margin-top: 40px;
+        width: 327px;
+      }
+    }
+
+    .our-clients-container {
+      padding: 104px 16px;
+      flex-direction: column;
+      height: auto;
+
+      .our-client-item {
+        width: 100%;
+
+        &.num2 {
+          width: inherit;
+        }
+
+        .client-container {
+          flex-direction: column;
+          position: relative;
+          display: inherit;
+
+          &.pad {
+            padding: unset;
+
+            // .client-image-container:nth-child(2) {
+            //   left: 50%;
+            // }
+          }
+
+          .client-image-container:nth-child(2) {
+            left: 50%;
+            margin-top: 28px;
+            margin-bottom: 28px;
+          }
+        }
+      }
+    }
+  }
+}
