@@ -7,3 +7,4 @@
 .yarn
 .yarnrc.yml
 package-lock.json
+.cache
