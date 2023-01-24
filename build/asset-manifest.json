@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.72ac6eeb.css",
+    "main.js": "/website/static/js/main.e1405480.js",
+    "static/js/55.d5e67a69.chunk.js": "/website/static/js/55.d5e67a69.chunk.js",
+    "static/js/905.16924b95.chunk.js": "/website/static/js/905.16924b95.chunk.js",
+    "static/js/787.554b78a7.chunk.js": "/website/static/js/787.554b78a7.chunk.js",
+    "static/media/Sofia Pro Bold.ttf": "/website/static/media/Sofia Pro Bold.72c1413b68e7bafe9528.ttf",
+    "static/media/sofiapro-light.otf": "/website/static/media/sofiapro-light.7978d11b00722a17ccfa.otf",
+    "static/media/mapBackground.png": "/website/static/media/mapBackground.499abb12f134a5e80ead.png",
+    "static/media/elipse.png": "/website/static/media/elipse.bf3758454f450e949c6a.png",
+    "static/media/backgroundFooter.png": "/website/static/media/backgroundFooter.ec81f04349f59fd716bd.png",
+    "static/media/DMSans-Regular.ttf": "/website/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "index.html": "/website/index.html",
+    "main.72ac6eeb.css.map": "/website/static/css/main.72ac6eeb.css.map",
+    "main.e1405480.js.map": "/website/static/js/main.e1405480.js.map",
+    "55.d5e67a69.chunk.js.map": "/website/static/js/55.d5e67a69.chunk.js.map",
+    "905.16924b95.chunk.js.map": "/website/static/js/905.16924b95.chunk.js.map",
+    "787.554b78a7.chunk.js.map": "/website/static/js/787.554b78a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72ac6eeb.css",
+    "static/js/main.e1405480.js"
+  ]
+}
