@@ -16,297 +16,297 @@ export type Translations = RootTranslation
 type RootTranslation = {
 	header: {
 		/**
-		 * Home
+		 * H​o​m​e
 		 */
 		inicio: string
 		/**
-		 * Who we are
+		 * W​h​o​ ​w​e​ ​a​r​e
 		 */
 		nosotros: string
 		/**
-		 * services
+		 * s​e​r​v​i​c​e​s
 		 */
 		servicios: string
 		/**
-		 * Products
+		 * P​r​o​d​u​c​t​s
 		 */
 		productos: string
 		/**
-		 * Contact
+		 * C​o​n​t​a​c​t
 		 */
 		contactoButton: string
 		/**
-		 * EN
+		 * E​N
 		 */
 		en: string
 		/**
-		 * ES
+		 * E​S
 		 */
 		es: string
 	}
 	topBanner: {
 		/**
-		 * Always at the forefront technology
+		 * A​l​w​a​y​s​ ​a​t​ ​t​h​e​ ​f​o​r​e​f​r​o​n​t​ ​t​e​c​h​n​o​l​o​g​y
 		 */
 		title: string
 		/**
-		 * We are a company that was born on 2021, created in order to provide smarts solutions to the management of the internal processes of any type of companies with technological services and a human and great team that is available to its clients willing to find solutions. prompt and effective for those who need it.
+		 * W​e​ ​a​r​e​ ​a​ ​c​o​m​p​a​n​y​ ​t​h​a​t​ ​w​a​s​ ​b​o​r​n​ ​o​n​ ​2​0​2​1​,​ ​c​r​e​a​t​e​d​ ​i​n​ ​o​r​d​e​r​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​m​a​r​t​s​ ​s​o​l​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​p​r​o​c​e​s​s​e​s​ ​o​f​ ​a​n​y​ ​t​y​p​e​ ​o​f​ ​c​o​m​p​a​n​i​e​s​ ​w​i​t​h​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​s​e​r​v​i​c​e​s​ ​a​n​d​ ​a​ ​h​u​m​a​n​ ​a​n​d​ ​g​r​e​a​t​ ​t​e​a​m​ ​t​h​a​t​ ​i​s​ ​a​v​a​i​l​a​b​l​e​ ​t​o​ ​i​t​s​ ​c​l​i​e​n​t​s​ ​w​i​l​l​i​n​g​ ​t​o​ ​f​i​n​d​ ​s​o​l​u​t​i​o​n​s​.​ ​p​r​o​m​p​t​ ​a​n​d​ ​e​f​f​e​c​t​i​v​e​ ​f​o​r​ ​t​h​o​s​e​ ​w​h​o​ ​n​e​e​d​ ​i​t​.
 		 */
 		slogan: string
 		/**
-		 * About Us
+		 * A​b​o​u​t​ ​U​s
 		 */
 		button: string
 	}
 	inicio: {
 		staffAugmentation: {
 			/**
-			 * Staff Augmentation.
+			 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n​.
 			 */
 			title: string
 			/**
-			 * We offer our customers  agile teams to develop their projects with the best technologies and development practices.
+			 * W​e​ ​o​f​f​e​r​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​a​g​i​l​e​ ​t​e​a​m​s​ ​t​o​ ​d​e​v​e​l​o​p​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​d​e​v​e​l​o​p​m​e​n​t​ ​p​r​a​c​t​i​c​e​s​.
 			 */
 			bodyText: string
 		}
 		dllo: {
 			/**
-			 * Agile software development.
+			 * A​g​i​l​e​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​.
 			 */
 			title: string
 			/**
-			 * We have the best team of software developers in the different technologies and managed under the framework of agile SCRUM methodologies.
+			 * W​e​ ​h​a​v​e​ ​t​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​s​ ​i​n​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​m​a​n​a​g​e​d​ ​u​n​d​e​r​ ​t​h​e​ ​f​r​a​m​e​w​o​r​k​ ​o​f​ ​a​g​i​l​e​ ​S​C​R​U​M​ ​m​e​t​h​o​d​o​l​o​g​i​e​s​.
 			 */
 			bodyText: string
 		}
 		softwareNomina: {
 			/**
-			 * Web Software to Time Attendance, Payroll, Access control and Prsonnel Management.
+			 * W​e​b​ ​S​o​f​t​w​a​r​e​ ​t​o​ ​T​i​m​e​ ​A​t​t​e​n​d​a​n​c​e​,​ ​P​a​y​r​o​l​l​,​ ​A​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​P​r​s​o​n​n​e​l​ ​M​a​n​a​g​e​m​e​n​t​.
 			 */
 			title: string
 			/**
-			 * Ofrecemos sistemas para la gestión interna de las empresas.
+			 * O​f​r​e​c​e​m​o​s​ ​s​i​s​t​e​m​a​s​ ​p​a​r​a​ ​l​a​ ​g​e​s​t​i​o​́​n​ ​i​n​t​e​r​n​a​ ​d​e​ ​l​a​s​ ​e​m​p​r​e​s​a​s​.
 			 */
 			bodyText: string
 		}
 		juridico: {
 			/**
-			 * Commercial Legal Advice with the best practices applied to technology.
+			 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y​.
 			 */
 			title: string
 			/**
-			 * The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's, applying the most recent practices in Legal Innovation, among which Legal Design is the main tool for the provision of our legal services.
+			 * T​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​l​e​g​a​l​ ​a​d​v​i​s​o​r​s​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​u​p​p​o​r​t​ ​t​o​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​i​n​ ​t​h​e​ ​c​o​m​m​e​r​c​i​a​l​,​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​a​n​d​ ​i​n​t​e​l​l​e​c​t​u​a​l​ ​p​r​o​p​e​r​t​y​ ​i​n​d​u​s​t​r​y​'​s​,​ ​a​p​p​l​y​i​n​g​ ​t​h​e​ ​m​o​s​t​ ​r​e​c​e​n​t​ ​p​r​a​c​t​i​c​e​s​ ​i​n​ ​L​e​g​a​l​ ​I​n​n​o​v​a​t​i​o​n​,​ ​a​m​o​n​g​ ​w​h​i​c​h​ ​L​e​g​a​l​ ​D​e​s​i​g​n​ ​i​s​ ​t​h​e​ ​m​a​i​n​ ​t​o​o​l​ ​f​o​r​ ​t​h​e​ ​p​r​o​v​i​s​i​o​n​ ​o​f​ ​o​u​r​ ​l​e​g​a​l​ ​s​e​r​v​i​c​e​s​.
 			 */
 			bodyText: string
 		}
 		/**
-		 * Our services
+		 * O​u​r​ ​s​e​r​v​i​c​e​s
 		 */
 		nuestrosServicios: string
 		sobreNosotros: {
 			/**
-			 * About Us
+			 * A​b​o​u​t​ ​U​s
 			 */
 			title: string
 			/**
-			 * We are a company that was born on 2021, created in order to provide smarts solutions to the management of the internal processes of any type of companies with technological services and a human and great team that is available to its clients willing to find solutions. prompt and effective for those who need it.
+			 * W​e​ ​a​r​e​ ​a​ ​c​o​m​p​a​n​y​ ​t​h​a​t​ ​w​a​s​ ​b​o​r​n​ ​o​n​ ​2​0​2​1​,​ ​c​r​e​a​t​e​d​ ​i​n​ ​o​r​d​e​r​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​m​a​r​t​s​ ​s​o​l​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​p​r​o​c​e​s​s​e​s​ ​o​f​ ​a​n​y​ ​t​y​p​e​ ​o​f​ ​c​o​m​p​a​n​i​e​s​ ​w​i​t​h​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​s​e​r​v​i​c​e​s​ ​a​n​d​ ​a​ ​h​u​m​a​n​ ​a​n​d​ ​g​r​e​a​t​ ​t​e​a​m​ ​t​h​a​t​ ​i​s​ ​a​v​a​i​l​a​b​l​e​ ​t​o​ ​i​t​s​ ​c​l​i​e​n​t​s​ ​w​i​l​l​i​n​g​ ​t​o​ ​f​i​n​d​ ​s​o​l​u​t​i​o​n​s​.​ ​p​r​o​m​p​t​ ​a​n​d​ ​e​f​f​e​c​t​i​v​e​ ​f​o​r​ ​t​h​o​s​e​ ​w​h​o​ ​n​e​e​d​ ​i​t​.
 			 */
 			text: string
 		}
 		/**
-		 * Lo que dicen nuestros clientes
+		 * L​o​ ​q​u​e​ ​d​i​c​e​n​ ​n​u​e​s​t​r​o​s​ ​c​l​i​e​n​t​e​s
 		 */
 		loqueDicenNuestrosClientes: string
 		/**
-		 * Our Clients
+		 * O​u​r​ ​C​l​i​e​n​t​s
 		 */
 		nuestrosClientes: string
 		/**
-		 * Some of the companies that have trusted our company for their projects.
+		 * S​o​m​e​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​i​e​s​ ​t​h​a​t​ ​h​a​v​e​ ​t​r​u​s​t​e​d​ ​o​u​r​ ​c​o​m​p​a​n​y​ ​f​o​r​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s​.
 		 */
 		nuestrosClientesText: string
 	}
 	nosotros: {
 		/**
-		 * Who we are
+		 * W​h​o​ ​w​e​ ​a​r​e
 		 */
 		nosotrosTitle: string
 		/**
-		 * About Us
+		 * A​b​o​u​t​ ​U​s
 		 */
 		nosotrosHeaderTitle: string
 		/**
-		 * We are a company that was born on 2021, created in order to provide smarts solutions to the management of the internal processes of any type of companies with technological services and a human and great team that is available to its clients willing to find solutions. prompt and effective for those who need it.
+		 * W​e​ ​a​r​e​ ​a​ ​c​o​m​p​a​n​y​ ​t​h​a​t​ ​w​a​s​ ​b​o​r​n​ ​o​n​ ​2​0​2​1​,​ ​c​r​e​a​t​e​d​ ​i​n​ ​o​r​d​e​r​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​m​a​r​t​s​ ​s​o​l​u​t​i​o​n​s​ ​t​o​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​p​r​o​c​e​s​s​e​s​ ​o​f​ ​a​n​y​ ​t​y​p​e​ ​o​f​ ​c​o​m​p​a​n​i​e​s​ ​w​i​t​h​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​s​e​r​v​i​c​e​s​ ​a​n​d​ ​a​ ​h​u​m​a​n​ ​a​n​d​ ​g​r​e​a​t​ ​t​e​a​m​ ​t​h​a​t​ ​i​s​ ​a​v​a​i​l​a​b​l​e​ ​t​o​ ​i​t​s​ ​c​l​i​e​n​t​s​ ​w​i​l​l​i​n​g​ ​t​o​ ​f​i​n​d​ ​s​o​l​u​t​i​o​n​s​.​ ​p​r​o​m​p​t​ ​a​n​d​ ​e​f​f​e​c​t​i​v​e​ ​f​o​r​ ​t​h​o​s​e​ ​w​h​o​ ​n​e​e​d​ ​i​t​.
 		 */
 		nosotrosHeaderText: string
 		/**
-		 * Why choose us?
+		 * W​h​y​ ​c​h​o​o​s​e​ ​u​s​?
 		 */
 		porqueElegirnosTitle: string
 		porqueElegirnosText: {
 			/**
-			 * Successful short-term deliveries
+			 * S​u​c​c​e​s​s​f​u​l​ ​s​h​o​r​t​-​t​e​r​m​ ​d​e​l​i​v​e​r​i​e​s
 			 */
 			entregasExitosasCortoPlazoTitle: string
 			/**
-			 * The agility, the skills of our professionals and the quality of our products and services allow us to deliver functional projects in a short time.
+			 * T​h​e​ ​a​g​i​l​i​t​y​,​ ​t​h​e​ ​s​k​i​l​l​s​ ​o​f​ ​o​u​r​ ​p​r​o​f​e​s​s​i​o​n​a​l​s​ ​a​n​d​ ​t​h​e​ ​q​u​a​l​i​t​y​ ​o​f​ ​o​u​r​ ​p​r​o​d​u​c​t​s​ ​a​n​d​ ​s​e​r​v​i​c​e​s​ ​a​l​l​o​w​ ​u​s​ ​t​o​ ​d​e​l​i​v​e​r​ ​f​u​n​c​t​i​o​n​a​l​ ​p​r​o​j​e​c​t​s​ ​i​n​ ​a​ ​s​h​o​r​t​ ​t​i​m​e​.
 			 */
 			entregasExitosasCortoPlazoText: string
 			/**
-			 * Self-managed teams
+			 * S​e​l​f​-​m​a​n​a​g​e​d​ ​t​e​a​m​s
 			 */
 			equiposAutoGestionandosTitle: string
 			/**
-			 * Soluciones Inteligentes is committed to managing client projects in a different way, in such a way that the client only has to worry about receiving a product to their satisfaction without having to carry out team management tasks or tests.
+			 * S​o​l​u​c​i​o​n​e​s​ ​I​n​t​e​l​i​g​e​n​t​e​s​ ​i​s​ ​c​o​m​m​i​t​t​e​d​ ​t​o​ ​m​a​n​a​g​i​n​g​ ​c​l​i​e​n​t​ ​p​r​o​j​e​c​t​s​ ​i​n​ ​a​ ​d​i​f​f​e​r​e​n​t​ ​w​a​y​,​ ​i​n​ ​s​u​c​h​ ​a​ ​w​a​y​ ​t​h​a​t​ ​t​h​e​ ​c​l​i​e​n​t​ ​o​n​l​y​ ​h​a​s​ ​t​o​ ​w​o​r​r​y​ ​a​b​o​u​t​ ​r​e​c​e​i​v​i​n​g​ ​a​ ​p​r​o​d​u​c​t​ ​t​o​ ​t​h​e​i​r​ ​s​a​t​i​s​f​a​c​t​i​o​n​ ​w​i​t​h​o​u​t​ ​h​a​v​i​n​g​ ​t​o​ ​c​a​r​r​y​ ​o​u​t​ ​t​e​a​m​ ​m​a​n​a​g​e​m​e​n​t​ ​t​a​s​k​s​ ​o​r​ ​t​e​s​t​s​.
 			 */
 			equiposAutoGestionandosText: string
 			/**
-			 * Our work team
+			 * O​u​r​ ​w​o​r​k​ ​t​e​a​m
 			 */
 			nuestrosEquiposDeTrabajoTitle: string
 			/**
-			 * Our work teams are made up of bilingual project leaders (Project Managers, Product Owners and technical leaders), software developers and support and project analysts.
+			 * O​u​r​ ​w​o​r​k​ ​t​e​a​m​s​ ​a​r​e​ ​m​a​d​e​ ​u​p​ ​o​f​ ​b​i​l​i​n​g​u​a​l​ ​p​r​o​j​e​c​t​ ​l​e​a​d​e​r​s​ ​(​P​r​o​j​e​c​t​ ​M​a​n​a​g​e​r​s​,​ ​P​r​o​d​u​c​t​ ​O​w​n​e​r​s​ ​a​n​d​ ​t​e​c​h​n​i​c​a​l​ ​l​e​a​d​e​r​s​)​,​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​s​ ​a​n​d​ ​s​u​p​p​o​r​t​ ​a​n​d​ ​p​r​o​j​e​c​t​ ​a​n​a​l​y​s​t​s​.
 			 */
 			nuestrosEquiposDeTrabajoText: string
 			/**
-			 * Flexibilidad
+			 * F​l​e​x​i​b​i​l​i​d​a​d
 			 */
 			flexibilidadTitle: string
 			/**
-			 * Willing to make changes in the work plan of our clients when required.
+			 * W​i​l​l​i​n​g​ ​t​o​ ​m​a​k​e​ ​c​h​a​n​g​e​s​ ​i​n​ ​t​h​e​ ​w​o​r​k​ ​p​l​a​n​ ​o​f​ ​o​u​r​ ​c​l​i​e​n​t​s​ ​w​h​e​n​ ​r​e​q​u​i​r​e​d​.
 			 */
 			flexibilidadText: string
 			/**
-			 * Quality and service
+			 * Q​u​a​l​i​t​y​ ​a​n​d​ ​s​e​r​v​i​c​e
 			 */
 			calidadServicioTitle: string
 			/**
-			 * Certified experience, stable solutions and an efficient help desk to resolve all types of incidents, stable developments and quickly delivered to satisfaction.
+			 * C​e​r​t​i​f​i​e​d​ ​e​x​p​e​r​i​e​n​c​e​,​ ​s​t​a​b​l​e​ ​s​o​l​u​t​i​o​n​s​ ​a​n​d​ ​a​n​ ​e​f​f​i​c​i​e​n​t​ ​h​e​l​p​ ​d​e​s​k​ ​t​o​ ​r​e​s​o​l​v​e​ ​a​l​l​ ​t​y​p​e​s​ ​o​f​ ​i​n​c​i​d​e​n​t​s​,​ ​s​t​a​b​l​e​ ​d​e​v​e​l​o​p​m​e​n​t​s​ ​a​n​d​ ​q​u​i​c​k​l​y​ ​d​e​l​i​v​e​r​e​d​ ​t​o​ ​s​a​t​i​s​f​a​c​t​i​o​n​.
 			 */
 			calidadServicioText: string
 			/**
-			 * Comunicación
+			 * C​o​m​u​n​i​c​a​c​i​ó​n
 			 */
 			comunicacionTitle: string
 			/**
-			 * We are known for having an excellent relationship with our customers. Assertive communication is a pillar to guarantee an excellent relationship in our work teams.
+			 * W​e​ ​a​r​e​ ​k​n​o​w​n​ ​f​o​r​ ​h​a​v​i​n​g​ ​a​n​ ​e​x​c​e​l​l​e​n​t​ ​r​e​l​a​t​i​o​n​s​h​i​p​ ​w​i​t​h​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​.​ ​A​s​s​e​r​t​i​v​e​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​ ​i​s​ ​a​ ​p​i​l​l​a​r​ ​t​o​ ​g​u​a​r​a​n​t​e​e​ ​a​n​ ​e​x​c​e​l​l​e​n​t​ ​r​e​l​a​t​i​o​n​s​h​i​p​ ​i​n​ ​o​u​r​ ​w​o​r​k​ ​t​e​a​m​s​.
 			 */
 			comunicacionText: string
 		}
 	}
 	servicios: {
 		/**
-		 * Our Services
+		 * O​u​r​ ​S​e​r​v​i​c​e​s
 		 */
 		title: string
 		/**
-		 * Specialized software for pre-payroll, personnel management and access control.
+		 * S​p​e​c​i​a​l​i​z​e​d​ ​s​o​f​t​w​a​r​e​ ​f​o​r​ ​p​r​e​-​p​a​y​r​o​l​l​,​ ​p​e​r​s​o​n​n​e​l​ ​m​a​n​a​g​e​m​e​n​t​ ​a​n​d​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​.
 		 */
 		sotfwareEspecializadoTitle: string
 		/**
-		 * We distribute software and hardware from the leading access control and attendance software company: ZKTeco. We offer systems for the internal management of companies. We have a team of specialists in the management of pre-payroll projects and integration with third-party software. We provide specialized technical support.
+		 * W​e​ ​d​i​s​t​r​i​b​u​t​e​ ​s​o​f​t​w​a​r​e​ ​a​n​d​ ​h​a​r​d​w​a​r​e​ ​f​r​o​m​ ​t​h​e​ ​l​e​a​d​i​n​g​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​a​t​t​e​n​d​a​n​c​e​ ​s​o​f​t​w​a​r​e​ ​c​o​m​p​a​n​y​:​ ​Z​K​T​e​c​o​.​ ​W​e​ ​o​f​f​e​r​ ​s​y​s​t​e​m​s​ ​f​o​r​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​c​o​m​p​a​n​i​e​s​.​ ​W​e​ ​h​a​v​e​ ​a​ ​t​e​a​m​ ​o​f​ ​s​p​e​c​i​a​l​i​s​t​s​ ​i​n​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​p​r​e​-​p​a​y​r​o​l​l​ ​p​r​o​j​e​c​t​s​ ​a​n​d​ ​i​n​t​e​g​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​i​r​d​-​p​a​r​t​y​ ​s​o​f​t​w​a​r​e​.​ ​W​e​ ​p​r​o​v​i​d​e​ ​s​p​e​c​i​a​l​i​z​e​d​ ​t​e​c​h​n​i​c​a​l​ ​s​u​p​p​o​r​t​.
 		 */
 		softwareEspecializadoText: string
 		/**
-		 * Agile software development
+		 * A​g​i​l​e​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t
 		 */
 		dlloSofwareAlaMedidaTitle: string
 		/**
-		 * We have the best team of software developers in the different technologies and managed under the framework of agile SCRUM methodologies.
+		 * W​e​ ​h​a​v​e​ ​t​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​s​ ​i​n​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​m​a​n​a​g​e​d​ ​u​n​d​e​r​ ​t​h​e​ ​f​r​a​m​e​w​o​r​k​ ​o​f​ ​a​g​i​l​e​ ​S​C​R​U​M​ ​m​e​t​h​o​d​o​l​o​g​i​e​s​.
 		 */
 		dlloSofwareAlaMedidaText: string
 		/**
-		 * Staff Augmentation.
+		 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n​.
 		 */
 		staffAugmentationTitle: string
 		/**
-		 * We offer our customers  agile teams to develop their projects with the best technologies and development practices.
+		 * W​e​ ​o​f​f​e​r​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​a​g​i​l​e​ ​t​e​a​m​s​ ​t​o​ ​d​e​v​e​l​o​p​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​d​e​v​e​l​o​p​m​e​n​t​ ​p​r​a​c​t​i​c​e​s​.
 		 */
 		staffAugmentationText: string
 		/**
-		 * Back-End.
+		 * B​a​c​k​-​E​n​d​.
 		 */
 		backEnd: string
 		/**
-		 * Front-End.
+		 * F​r​o​n​t​-​E​n​d​.
 		 */
 		frontEnd: string
 		/**
-		 * Mobile development.
+		 * M​o​b​i​l​e​ ​d​e​v​e​l​o​p​m​e​n​t​.
 		 */
 		dlloMobil: string
 		/**
-		 * Databases
+		 * D​a​t​a​b​a​s​e​s
 		 */
 		basesDeDatos: string
 		/**
-		 * Commercial Legal Advice with the best practices applied to technology.
+		 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y​.
 		 */
 		asesoriaJuridicaTitle: string
 		/**
-		 * The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's, applying the most recent practices in Legal Innovation, among which Legal Design is the main tool for the provision of our legal services.
+		 * T​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​l​e​g​a​l​ ​a​d​v​i​s​o​r​s​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​u​p​p​o​r​t​ ​t​o​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​i​n​ ​t​h​e​ ​c​o​m​m​e​r​c​i​a​l​,​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​a​n​d​ ​i​n​t​e​l​l​e​c​t​u​a​l​ ​p​r​o​p​e​r​t​y​ ​i​n​d​u​s​t​r​y​'​s​,​ ​a​p​p​l​y​i​n​g​ ​t​h​e​ ​m​o​s​t​ ​r​e​c​e​n​t​ ​p​r​a​c​t​i​c​e​s​ ​i​n​ ​L​e​g​a​l​ ​I​n​n​o​v​a​t​i​o​n​,​ ​a​m​o​n​g​ ​w​h​i​c​h​ ​L​e​g​a​l​ ​D​e​s​i​g​n​ ​i​s​ ​t​h​e​ ​m​a​i​n​ ​t​o​o​l​ ​f​o​r​ ​t​h​e​ ​p​r​o​v​i​s​i​o​n​ ​o​f​ ​o​u​r​ ​l​e​g​a​l​ ​s​e​r​v​i​c​e​s​.
 		 */
 		asesoriaJuridicaText: string
 		/**
-		 * Web Software to time attendance and payroll in Colombia
+		 * W​e​b​ ​S​o​f​t​w​a​r​e​ ​t​o​ ​t​i​m​e​ ​a​t​t​e​n​d​a​n​c​e​ ​a​n​d​ ​p​a​y​r​o​l​l​ ​i​n​ ​C​o​l​o​m​b​i​a
 		 */
 		bioTime: string
 		/**
-		 * Specialized technical support
+		 * S​p​e​c​i​a​l​i​z​e​d​ ​t​e​c​h​n​i​c​a​l​ ​s​u​p​p​o​r​t
 		 */
 		ztkTeco: string
 		/**
-		 * Software to Acces Control
+		 * S​o​f​t​w​a​r​e​ ​t​o​ ​A​c​c​e​s​ ​C​o​n​t​r​o​l
 		 */
 		bioSecurity: string
 		/**
-		 * Access Control devices
+		 * A​c​c​e​s​s​ ​C​o​n​t​r​o​l​ ​d​e​v​i​c​e​s
 		 */
 		dispositivosCA: string
 		/**
-		 * Our Services
+		 * O​u​r​ ​S​e​r​v​i​c​e​s
 		 */
 		nuestrosServicios: string
 		/**
-		 * Different devices for different types of business
+		 * D​i​f​f​e​r​e​n​t​ ​d​e​v​i​c​e​s​ ​f​o​r​ ​d​i​f​f​e​r​e​n​t​ ​t​y​p​e​s​ ​o​f​ ​b​u​s​i​n​e​s​s
 		 */
 		dispositivosCard1: string
 		/**
-		 * Devices warranty from 1 to 3 years, according  on the line. Devices with the most recent  technology. (Face, Iris, Fingerprint, Vein and others)
+		 * D​e​v​i​c​e​s​ ​w​a​r​r​a​n​t​y​ ​f​r​o​m​ ​1​ ​t​o​ ​3​ ​y​e​a​r​s​,​ ​a​c​c​o​r​d​i​n​g​ ​ ​o​n​ ​t​h​e​ ​l​i​n​e​.​ ​D​e​v​i​c​e​s​ ​w​i​t​h​ ​t​h​e​ ​m​o​s​t​ ​r​e​c​e​n​t​ ​ ​t​e​c​h​n​o​l​o​g​y​.​ ​(​F​a​c​e​,​ ​I​r​i​s​,​ ​F​i​n​g​e​r​p​r​i​n​t​,​ ​V​e​i​n​ ​a​n​d​ ​o​t​h​e​r​s​)
 		 */
 		dispositivosCard2: string
 	}
 	contacto: {
 		/**
-		 * Contact
+		 * C​o​n​t​a​c​t
 		 */
 		headerTitle: string
 		/**
-		 * Let's talk about your next project
+		 * L​e​t​'​s​ ​t​a​l​k​ ​a​b​o​u​t​ ​y​o​u​r​ ​n​e​x​t​ ​p​r​o​j​e​c​t
 		 */
 		hablemosTitle: string
 		/**
-		 * We have the best team of software developers in the different technologies and managed under the framework of agile SCRUM methodologies.
+		 * W​e​ ​h​a​v​e​ ​t​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​s​ ​i​n​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​m​a​n​a​g​e​d​ ​u​n​d​e​r​ ​t​h​e​ ​f​r​a​m​e​w​o​r​k​ ​o​f​ ​a​g​i​l​e​ ​S​C​R​U​M​ ​m​e​t​h​o​d​o​l​o​g​i​e​s​.
 		 */
 		hablemosDescripcion: string
 		/**
-		 * Name
+		 * N​a​m​e
 		 */
 		nombre: string
 		/**
-		 * Email
+		 * E​m​a​i​l
 		 */
 		email: string
 		/**
-		 * Message
+		 * M​e​s​s​a​g​e
 		 */
 		mensaje: string
 		/**
-		 * Agree terms & conditions
+		 * A​g​r​e​e​ ​t​e​r​m​s​ ​&​ ​c​o​n​d​i​t​i​o​n​s
 		 */
 		aceptarTyC: string
 		/**
-		 * SUBMIT
+		 * S​U​B​M​I​T
 		 */
 		enviar: string
 	}
