@@ -1,0 +1,43 @@
+@import '../../custom.scss';
+
+.card-container {
+  width: 400px;
+  height: 380px;
+  background: $white;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  margin-right: 16px;
+  margin-bottom: 44px;
+  padding: 25px;
+
+  .icon {
+    margin-bottom: 24px;
+    background: $lightGray;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: $textHight;
+  }
+
+  .bodyText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: $textBody;
+  }
+}
