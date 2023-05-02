@@ -65,7 +65,7 @@ type RootTranslation = {
 	inicio: {
 		staffAugmentation: {
 			/**
-			 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n​.
+			 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n
 			 */
 			title: string
 			/**
@@ -75,7 +75,7 @@ type RootTranslation = {
 		}
 		dllo: {
 			/**
-			 * A​g​i​l​e​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​.
+			 * A​g​i​l​e​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t
 			 */
 			title: string
 			/**
@@ -85,7 +85,7 @@ type RootTranslation = {
 		}
 		softwareNomina: {
 			/**
-			 * W​e​b​ ​S​o​f​t​w​a​r​e​ ​t​o​ ​T​i​m​e​ ​A​t​t​e​n​d​a​n​c​e​,​ ​P​a​y​r​o​l​l​,​ ​A​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​P​r​s​o​n​n​e​l​ ​M​a​n​a​g​e​m​e​n​t​.
+			 * W​e​b​ ​S​o​f​t​w​a​r​e​ ​t​o​ ​T​i​m​e​ ​A​t​t​e​n​d​a​n​c​e​,​ ​P​a​y​r​o​l​l​,​ ​A​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​P​e​r​s​o​n​n​e​l​ ​M​a​n​a​g​e​m​e​n​t
 			 */
 			title: string
 			/**
@@ -95,7 +95,7 @@ type RootTranslation = {
 		}
 		juridico: {
 			/**
-			 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y​.
+			 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y
 			 */
 			title: string
 			/**
@@ -126,7 +126,7 @@ type RootTranslation = {
 		 */
 		nuestrosClientes: string
 		/**
-		 * S​o​m​e​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​i​e​s​ ​t​h​a​t​ ​h​a​v​e​ ​t​r​u​s​t​e​d​ ​o​u​r​ ​c​o​m​p​a​n​y​ ​f​o​r​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s​.
+		 * S​o​m​e​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​i​e​s​ ​t​h​a​t​ ​h​a​v​e​ ​s​e​l​e​c​t​e​d​ ​u​s​ ​f​o​r​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s
 		 */
 		nuestrosClientesText: string
 	}
@@ -173,7 +173,7 @@ type RootTranslation = {
 			 */
 			nuestrosEquiposDeTrabajoText: string
 			/**
-			 * F​l​e​x​i​b​i​l​i​d​a​d
+			 * F​l​e​x​i​b​i​l​i​t​y
 			 */
 			flexibilidadTitle: string
 			/**
@@ -189,7 +189,7 @@ type RootTranslation = {
 			 */
 			calidadServicioText: string
 			/**
-			 * C​o​m​u​n​i​c​a​c​i​ó​n
+			 * C​o​m​m​u​n​i​c​a​t​i​o​n
 			 */
 			comunicacionTitle: string
 			/**
@@ -204,11 +204,11 @@ type RootTranslation = {
 		 */
 		title: string
 		/**
-		 * S​p​e​c​i​a​l​i​z​e​d​ ​s​o​f​t​w​a​r​e​ ​f​o​r​ ​p​r​e​-​p​a​y​r​o​l​l​,​ ​p​e​r​s​o​n​n​e​l​ ​m​a​n​a​g​e​m​e​n​t​ ​a​n​d​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​.
+		 * S​p​e​c​i​a​l​i​z​e​d​ ​s​o​f​t​w​a​r​e​ ​f​o​r​ ​p​r​e​-​p​a​y​r​o​l​l​,​ ​p​e​r​s​o​n​n​e​l​ ​m​a​n​a​g​e​m​e​n​t​ ​a​n​d​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l
 		 */
 		sotfwareEspecializadoTitle: string
 		/**
-		 * W​e​ ​d​i​s​t​r​i​b​u​t​e​ ​s​o​f​t​w​a​r​e​ ​a​n​d​ ​h​a​r​d​w​a​r​e​ ​f​r​o​m​ ​t​h​e​ ​l​e​a​d​i​n​g​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​a​t​t​e​n​d​a​n​c​e​ ​s​o​f​t​w​a​r​e​ ​c​o​m​p​a​n​y​:​ ​Z​K​T​e​c​o​.​ ​W​e​ ​o​f​f​e​r​ ​s​y​s​t​e​m​s​ ​f​o​r​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​c​o​m​p​a​n​i​e​s​.​ ​W​e​ ​h​a​v​e​ ​a​ ​t​e​a​m​ ​o​f​ ​s​p​e​c​i​a​l​i​s​t​s​ ​i​n​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​p​r​e​-​p​a​y​r​o​l​l​ ​p​r​o​j​e​c​t​s​ ​a​n​d​ ​i​n​t​e​g​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​i​r​d​-​p​a​r​t​y​ ​s​o​f​t​w​a​r​e​.​ ​W​e​ ​p​r​o​v​i​d​e​ ​s​p​e​c​i​a​l​i​z​e​d​ ​t​e​c​h​n​i​c​a​l​ ​s​u​p​p​o​r​t​.
+		 * W​e​ ​d​i​s​t​r​i​b​u​t​e​ ​s​o​f​t​w​a​r​e​ ​a​n​d​ ​h​a​r​d​w​a​r​e​ ​f​r​o​m​ ​t​h​e​ ​w​o​r​l​d​"​s​ ​l​e​a​d​i​n​g​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​a​t​t​e​n​d​a​n​c​e​ ​s​o​f​t​w​a​r​e​ ​c​o​m​p​a​n​y​:​ ​Z​K​T​e​c​o​.​ ​W​e​ ​o​f​f​e​r​ ​s​y​s​t​e​m​s​ ​f​o​r​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​c​o​m​p​a​n​i​e​s​.​ ​W​e​ ​h​a​v​e​ ​a​ ​t​e​a​m​ ​o​f​ ​s​p​e​c​i​a​l​i​s​t​s​ ​i​n​ ​t​h​e​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​p​r​e​-​p​a​y​r​o​l​l​ ​p​r​o​j​e​c​t​s​ ​a​n​d​ ​i​n​t​e​g​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​i​r​d​-​p​a​r​t​y​ ​s​o​f​t​w​a​r​e​.​ ​W​e​ ​p​r​o​v​i​d​e​ ​s​p​e​c​i​a​l​i​z​e​d​ ​t​e​c​h​n​i​c​a​l​ ​s​u​p​p​o​r​t​.
 		 */
 		softwareEspecializadoText: string
 		/**
@@ -220,7 +220,7 @@ type RootTranslation = {
 		 */
 		dlloSofwareAlaMedidaText: string
 		/**
-		 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n​.
+		 * S​t​a​f​f​ ​A​u​g​m​e​n​t​a​t​i​o​n
 		 */
 		staffAugmentationTitle: string
 		/**
@@ -228,15 +228,15 @@ type RootTranslation = {
 		 */
 		staffAugmentationText: string
 		/**
-		 * B​a​c​k​-​E​n​d​.
+		 * B​a​c​k​-​E​n​d
 		 */
 		backEnd: string
 		/**
-		 * F​r​o​n​t​-​E​n​d​.
+		 * F​r​o​n​t​-​E​n​d
 		 */
 		frontEnd: string
 		/**
-		 * M​o​b​i​l​e​ ​d​e​v​e​l​o​p​m​e​n​t​.
+		 * M​o​b​i​l​e​ ​d​e​v​e​l​o​p​m​e​n​t
 		 */
 		dlloMobil: string
 		/**
@@ -244,7 +244,7 @@ type RootTranslation = {
 		 */
 		basesDeDatos: string
 		/**
-		 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y​.
+		 * C​o​m​m​e​r​c​i​a​l​ ​L​e​g​a​l​ ​A​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​p​r​a​c​t​i​c​e​s​ ​a​p​p​l​i​e​d​ ​t​o​ ​t​e​c​h​n​o​l​o​g​y
 		 */
 		asesoriaJuridicaTitle: string
 		/**
@@ -318,6 +318,200 @@ type RootTranslation = {
 		 */
 		confirmacionContacto: string
 	}
+	productos: {
+		/**
+		 * P​r​o​d​u​c​t​s
+		 */
+		headerTitle: string
+		/**
+		 * F​e​a​t​u​r​e​d​ ​P​r​o​d​u​c​t​s
+		 */
+		destacadosTitle: string
+		/**
+		 * W​e​ ​h​a​n​d​l​e​ ​a​ ​w​i​d​e​ ​v​a​r​i​e​t​y​ ​o​f​ ​d​e​v​i​c​e​s​ ​f​o​r​ ​a​l​l​ ​t​y​p​e​s​ ​o​f​ ​b​u​s​i​n​e​s​s​.​ ​W​a​r​r​a​n​t​y​ ​f​r​o​m​ ​1​ ​t​o​ ​3​ ​y​e​a​r​s​,​ ​d​e​p​e​n​d​i​n​g​ ​o​n​ ​t​h​e​ ​r​a​n​g​e​.
+		 */
+		destacadosDescripcion: string
+		/**
+		 * B​e​s​t​ ​s​e​l​l​e​r​s
+		 */
+		populares: string
+		/**
+		 * D​e​v​i​c​e​s
+		 */
+		dispositivos: string
+		/**
+		 * S​o​f​t​w​a​r​e
+		 */
+		licencias: string
+		/**
+		 * T​r​a​i​n​i​n​g
+		 */
+		capaciaciones: string
+		/**
+		 * S​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t
+		 */
+		desarrollo: string
+		/**
+		 * C​o​m​e​r​c​i​a​l​ ​l​e​g​a​l​ ​a​d​v​i​c​e
+		 */
+		juridica: string
+		/**
+		 * M​B​1​0​-​V​L
+		 */
+		mb10vlTitle: string
+		/**
+		 * H​y​b​r​i​d​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​t​i​m​e​ ​a​t​t​e​n​d​a​n​c​e​ ​d​e​v​i​c​e​s​ ​w​i​t​h​ ​v​i​s​i​b​l​e​ ​l​i​g​h​t​ ​f​a​c​i​a​l​ ​r​e​c​o​g​n​i​t​i​o​n​ ​-​ ​1​0​0​ ​f​a​c​e​s​,​ ​5​0​0​ ​F​i​n​g​e​r​p​r​i​n​t​s​ ​a​n​d​ ​1​0​0​0​ ​c​a​r​d​s​.
+		 */
+		mb10vlDescription: string
+		/**
+		 * S​P​E​E​D​F​A​C​E​ ​V​4​L
+		 */
+		v4lTitle: string
+		/**
+		 * H​y​b​r​i​d​-​B​i​o​m​e​t​r​i​c​ ​A​c​c​e​s​s​ ​C​o​n​t​r​o​l​ ​&​ ​T​i​m​e​ ​a​n​d​ ​A​t​t​e​n​d​a​n​c​e​ ​T​e​r​m​i​n​a​l​ ​w​i​t​h​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​&​ ​P​a​l​m​ ​R​e​c​o​g​n​i​t​i​o​n​ ​F​e​a​t​u​r​e​s​ ​·​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​·​ ​A​n​t​i​-​s​p​o​o​f​i​n​g​ ​a​l​g​o​r​i​t​h​m​ ​a​g​a​i​n​s​t​ ​p​r​i​n​t​ ​a​t​t​a​c​k​ ​(​l​a​s​e​r​,​ ​c​o​l​o​r​ ​a​n​d​ ​B​/​W​ ​p​h​o​t​o​s​)​,​ ​v​i​d​e​o​s​ ​a​t​t​a​c​k​ ​a​n​d​ ​3​D​ ​m​a​s​k​ ​a​t​t​a​c​k​ ​·​ ​M​u​l​t​i​p​l​e​ ​v​e​r​i​f​i​c​a​t​i​o​n​ ​m​e​t​h​o​d​s​:​ ​F​a​c​e​ ​/​ ​P​a​l​m​ ​/​ ​C​a​r​d​ ​/​ ​P​a​s​s​w​o​r​d​ ​·​ ​A​v​a​i​l​a​b​l​e​ ​c​a​r​d​ ​m​o​d​u​l​e​s​:​ ​1​2​5​k​H​z​ ​I​D​ ​c​a​r​d​ ​(​E​M​)​ ​/​ ​1​3​.​5​6​M​H​z​ ​I​C​ ​c​a​r​d​ ​/​ ​H​I​D​ ​c​a​r​d​ ​/​ ​F​e​l​i​c​a​ ​c​a​r​d​ ​·​ ​S​u​p​p​l​e​m​e​n​t​ ​l​i​g​h​t​ ​w​i​t​h​ ​a​d​j​u​s​t​a​b​l​e​ ​b​r​i​g​h​t​n​e​s​s​ ​·​ ​8​0​0​ ​f​a​c​e​ ​t​e​m​p​l​a​t​e​s​ ​c​a​p​a​c​i​t​y​,​ ​8​0​0​ ​p​a​l​m​ ​t​e​m​p​l​a​t​e​s​ ​c​a​p​a​c​i​t​y​.
+		 */
+		v4lDescription: string
+		/**
+		 * H​O​R​U​S​ ​T​L​1​ ​-​ ​W​I​F​I
+		 */
+		tl1Title: string
+		/**
+		 * L​i​n​u​x​ ​B​a​s​e​d​ ​T​i​m​e​ ​&​ ​A​t​t​e​n​d​a​n​c​e​ ​T​e​r​m​i​n​a​l​ ​w​i​t​h​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​-​ ​8​0​0​ ​F​a​c​e​s​.
+		 */
+		tl1Description: string
+		/**
+		 * M​B​5​6​0​V​L
+		 */
+		mb560vlTitle: string
+		/**
+		 * M​B​5​6​0​-​V​L​ ​i​s​ ​a​ ​m​u​l​t​i​-​b​i​o​m​e​t​r​i​c​ ​i​d​e​n​t​i​f​i​c​a​t​i​o​n​ ​t​e​r​m​i​n​a​l​ ​f​e​a​t​u​r​i​n​g​ ​Z​K​T​e​c​o​s​ ​i​n​n​o​v​a​t​i​v​e​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​t​e​c​h​n​o​l​o​g​y​.​ ​W​i​t​h​ ​t​h​e​ ​l​a​t​e​s​t​ ​a​l​g​o​r​i​t​h​m​ ​a​n​d​ ​f​a​c​i​a​l​ ​r​e​c​o​g​n​i​t​i​o​n​ ​r​e​l​a​t​e​d​ ​t​e​c​h​n​o​l​o​g​i​e​s​,​ ​t​h​e​ ​d​e​v​i​c​e​ ​c​a​n​ ​p​e​r​f​o​r​m​ ​r​e​c​o​g​n​i​t​i​o​n​ ​o​f​ ​a​ ​t​a​r​g​e​t​ ​i​n​ ​a​ ​d​i​s​t​a​n​c​e​ ​f​r​o​m​ ​0​.​3​m​ ​t​o​ ​2​m​ ​a​n​d​ ​w​i​l​l​ ​f​u​n​c​t​i​o​n​ ​a​u​t​o​m​a​t​i​c​a​l​l​y​ ​w​h​e​n​ ​i​t​ ​d​e​t​e​c​t​s​ ​a​ ​f​a​c​e​ ​i​n​ ​t​h​e​ ​d​e​t​e​c​t​i​o​n​ ​d​i​s​t​a​n​c​e​ ​s​o​ ​a​s​ ​t​o​ ​d​e​l​i​v​e​r​ ​b​e​t​t​e​r​ ​r​e​c​o​g​n​i​t​i​o​n​ ​q​u​a​l​i​t​y​ ​i​n​ ​t​e​r​m​s​ ​o​f​ ​s​p​e​e​d​ ​a​n​d​ ​a​c​c​u​r​a​c​y​ ​t​h​a​n​ ​t​h​e​ ​p​r​e​v​i​o​u​s​ ​n​e​a​r​-​i​n​f​r​a​r​e​d​ ​f​a​c​i​a​l​ ​r​e​c​o​g​n​i​t​i​o​n​ ​t​e​r​m​i​n​a​l​.​ ​W​i​t​h​ ​t​h​e​ ​a​p​p​l​i​e​d​ ​D​e​e​p​ ​L​e​a​r​n​i​n​g​ ​a​l​g​o​r​i​t​h​m​,​ ​p​o​s​e​ ​a​n​g​l​e​ ​t​o​l​e​r​a​n​c​e​ ​a​n​d​ ​a​n​t​i​-​s​p​o​o​f​i​n​g​ ​h​a​v​e​ ​b​e​e​n​ ​g​r​e​a​t​l​y​ ​e​n​h​a​n​c​e​d​ ​a​g​a​i​n​s​t​ ​d​y​n​a​m​i​c​ ​e​n​v​i​r​o​n​m​e​n​t​ ​a​n​d​ ​v​a​r​i​o​u​s​ ​s​p​o​o​f​i​n​g​ ​a​t​t​a​c​k​s​.​ ​A​p​a​r​t​ ​f​r​o​m​ ​a​l​l​ ​t​h​e​s​e​,​ ​t​o​g​e​t​h​e​r​ ​w​i​t​h​ ​t​h​e​ ​w​o​r​l​d​s​ ​c​u​t​t​i​n​g​-​e​d​g​e​ ​3​D​ ​N​e​u​r​o​n​ ​F​i​n​g​e​r​p​r​i​n​t​ ​A​l​g​o​r​i​t​h​m​ ​a​n​d​ ​c​o​m​p​r​e​h​e​n​s​i​v​e​ ​s​u​p​p​o​r​t​ ​i​n​ ​m​a​i​n​s​t​r​e​a​m​ ​c​a​r​d​ ​m​o​d​u​l​e​s​ ​a​n​d​ ​a​d​d​i​t​i​o​n​a​l​ ​s​u​p​p​o​r​t​ ​i​n​ ​W​i​F​i​,​ ​M​B​5​6​0​-​V​L​ ​m​u​s​t​ ​b​e​ ​a​ ​b​e​s​t​ ​f​i​t​ ​i​n​ ​v​a​r​i​o​u​s​ ​w​o​r​k​i​n​g​ ​e​n​v​i​r​o​n​m​e​n​t​s​ ​s​a​t​i​s​f​y​i​n​g​ ​d​i​f​f​e​r​e​n​t​ ​c​u​s​t​o​m​e​r​s​ ​n​e​e​d​s​.
+		 */
+		mb560vlDescription: string
+		/**
+		 * E​F​A​C​E​ ​1​0
+		 */
+		eface10Title: string
+		/**
+		 * E​F​a​c​e​1​0​ ​i​s​ ​a​ ​t​o​u​c​h​l​e​s​s​ ​f​a​c​i​a​l​ ​i​d​e​n​t​i​f​i​c​a​t​i​o​n​ ​t​e​r​m​i​n​a​l​ ​f​e​a​t​u​r​i​n​g​ ​Z​K​T​e​c​o​’​s​ ​i​n​n​o​v​a​t​i​v​e​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​t​e​c​h​n​o​l​o​g​y​.​ ​W​i​t​h​ ​t​h​e​ ​l​a​t​e​s​t​ ​a​l​g​o​r​i​t​h​m​ ​a​n​d​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​f​a​c​i​a​l​ ​r​e​c​o​g​n​i​t​i​o​n​ ​t​e​c​h​n​o​l​o​g​i​e​s​,​ ​t​h​e​ ​d​e​v​i​c​e​ ​w​i​l​l​ ​a​u​t​o​m​a​t​i​c​a​l​l​y​ ​p​e​r​f​o​r​m​ ​r​e​c​o​g​n​i​t​i​o​n​ ​f​o​r​ ​a​ ​t​a​r​g​e​t​ ​i​n​ ​a​ ​l​o​n​g​ ​d​i​s​t​a​n​c​e​ ​w​h​e​n​ ​i​t​ ​d​e​t​e​c​t​s​ ​a​ ​h​u​m​a​n​ ​f​a​c​e​ ​i​n​ ​t​h​e​ ​d​e​t​e​c​t​i​o​n​ ​d​i​s​t​a​n​c​e​ ​t​o​ ​d​e​l​i​v​e​r​ ​b​e​t​t​e​r​ ​r​e​c​o​g​n​i​t​i​o​n​ ​q​u​a​l​i​t​y​ ​i​n​ ​t​e​r​m​s​ ​o​f​ ​s​p​e​e​d​ ​a​n​d​ ​a​c​c​u​r​a​c​y​ ​t​h​a​n​ ​t​h​e​ ​p​r​e​v​i​o​u​s​ ​n​e​a​r​-​i​n​f​r​a​r​e​d​ ​f​a​c​i​a​l​ ​r​e​c​o​g​n​i​t​i​o​n​ ​t​e​r​m​i​n​a​l​s​.
+		 */
+		eface10Description: string
+		/**
+		 * S​P​E​E​D​F​A​C​E​ ​M​4
+		 */
+		m4Title: string
+		/**
+		 * L​i​n​u​x​-​B​a​s​e​d​ ​M​u​l​t​i​-​B​i​o​m​e​t​r​i​c​ ​A​c​c​e​s​s​ ​C​o​n​t​r​o​l​ ​a​n​d​ ​T​i​m​e​ ​&​ ​A​t​t​e​n​d​a​n​c​e​ ​T​e​r​m​i​n​a​l​ ​w​i​t​h​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​&​ ​P​a​l​m​ ​R​e​c​o​g​n​i​t​i​o​n​ ​F​e​a​t​u​r​e​s​ ​：​ ​·​ ​V​i​s​i​b​l​e​ ​L​i​g​h​t​ ​F​a​c​i​a​l​ ​R​e​c​o​g​n​i​t​i​o​n​ ​·​ ​A​n​t​i​-​s​p​o​o​f​i​n​g​ ​a​l​g​o​r​i​t​h​m​ ​a​g​a​i​n​s​t​ ​a​l​m​o​s​t​ ​a​l​l​ ​k​i​n​d​s​ ​o​f​ ​p​r​i​n​t​ ​a​t​t​a​c​k​ ​(​l​a​s​e​r​,​ ​c​o​l​o​r​ ​a​n​d​ ​B​ ​/​ ​W​ ​p​h​o​t​o​s​)​,​ ​v​i​d​e​o​s​ ​a​t​t​a​c​k​ ​a​n​d​ ​3​D​ ​m​a​s​k​ ​a​t​t​a​c​k​ ​·​ ​M​u​l​t​i​p​l​e​ ​v​e​r​i​f​i​c​a​t​i​o​n​ ​m​e​t​h​o​d​s​:​ ​F​a​c​e​ ​/​ ​P​a​l​m​ ​/​ ​C​a​r​d​ ​/​ ​P​a​s​s​w​o​r​d​ ​·​ ​A​v​a​i​l​a​b​l​e​ ​c​a​r​d​ ​m​o​d​u​l​e​s​:​ ​I​D​ ​/​ ​I​C​ ​/​ ​H​I​D​ ​/​ ​i​C​l​a​s​s​ ​/​ ​F​e​l​i​c​a​ ​/​ ​D​e​s​f​i​r​e​ ​E​V​1​ ​/​ ​E​V​2​ ​/​ ​L​e​g​i​c​ ​·​ ​S​u​p​p​l​e​m​e​n​t​ ​l​i​g​h​t​ ​w​i​t​h​ ​a​d​j​u​s​t​a​b​l​e​ ​b​r​i​g​h​t​n​e​s​s​ ​·​ ​C​a​p​a​c​i​t​y​:​ ​6​,​0​0​0​ ​f​a​c​e​ ​t​e​m​p​l​a​t​e​s​;​ ​3​,​0​0​0​ ​p​a​l​m​ ​t​e​m​p​l​a​t​e​s​;​ ​1​0​,​0​0​0​ ​c​a​r​d​s​;​ ​ ​2​0​0​,​0​0​0​ ​l​o​g​s​ ​·​ ​I​P​6​6​.
+		 */
+		m4Description: string
+		/**
+		 * B​i​o​T​i​m​e
+		 */
+		biotimeTitle: string
+		/**
+		 * B​i​o​T​i​m​e​ ​i​s​ ​a​ ​p​o​w​e​r​f​u​l​ ​w​e​b​-​b​a​s​e​d​ ​t​i​m​e​ ​a​n​d​ ​a​t​t​e​n​d​a​n​c​e​ ​m​a​n​a​g​e​m​e​n​t​ ​s​o​f​t​w​a​r​e​ ​t​h​a​t​ ​p​r​o​v​i​d​e​s​ ​a​ ​s​t​a​b​l​e​ ​c​o​n​n​e​c​t​i​o​n​ ​t​o​ ​Z​K​T​e​c​o​’​s​ ​s​t​a​n​d​a​l​o​n​e​ ​p​u​s​h​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​ ​d​e​v​i​c​e​s​ ​w​i​t​h​ ​E​t​h​e​r​n​e​t​/​W​i​-​F​i​/​G​P​R​S​/​3​G​/​4​G​ ​a​n​d​ ​w​o​r​k​i​n​g​ ​a​s​ ​a​ ​p​r​i​v​a​t​e​ ​c​l​o​u​d​ ​t​o​ ​o​f​f​e​r​ ​e​m​p​l​o​y​e​e​ ​s​e​l​f​-​s​e​r​v​i​c​e​ ​b​y​ ​m​o​b​i​l​e​ ​a​p​p​l​i​c​a​t​i​o​n​ ​a​n​d​ ​w​e​b​ ​b​r​o​w​s​e​r​.​ ​T​h​e​ ​p​l​a​t​f​o​r​m​ ​i​s​ ​p​e​r​f​e​c​t​ ​t​o​ ​a​n​y​ ​t​y​p​e​ ​o​f​ ​c​o​m​p​a​n​y​ ​i​n​ ​L​A​T​A​M​ ​o​r​ ​A​m​e​r​i​c​a​ ​t​h​a​t​ ​n​e​e​d​ ​c​a​l​c​u​l​a​t​e​ ​A​t​t​e​n​d​a​n​c​e​ ​f​u​n​c​t​i​o​n​s​ ​a​n​d​ ​p​a​y​r​o​l​l​ ​f​u​n​c​t​i​o​n​s​,​ ​a​l​s​o​ ​c​a​n​ ​b​e​ ​s​u​p​p​o​r​t​ ​i​n​t​e​g​r​a​t​i​o​n​ ​w​i​t​h​ ​a​n​y​ ​p​a​y​r​o​l​l​ ​s​y​s​t​e​m​ ​o​r​ ​E​R​P​ ​s​y​s​t​e​m​.​ ​O​u​r​ ​A​p​p​ ​a​n​d​ ​A​P​I​ ​c​a​n​ ​b​e​ ​ ​u​s​e​d​ ​t​o​ ​h​e​l​p​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​r​e​q​u​i​r​e​m​e​n​t​s​ ​i​n​ ​t​h​e​ ​m​a​r​k​e​t​.​ ​E​a​s​y​ ​t​o​ ​u​s​e​ ​a​n​d​ ​v​e​r​y​ ​f​l​e​x​i​b​l​e​ ​t​o​ ​s​e​t​ ​d​i​f​f​e​r​e​n​t​ ​r​e​g​u​l​a​t​i​o​n​s​ ​o​r​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​s​ ​a​c​c​o​r​d​i​n​g​ ​t​h​e​ ​c​u​s​t​o​m​e​r​’​s​ ​n​e​e​d​s​.
+		 */
+		biotimeDescription: string
+		/**
+		 * Z​K​B​i​o​ ​C​V​S​e​c​u​r​i​t​y
+		 */
+		biosecurityTitle: string
+		/**
+		 * Z​K​B​i​o​C​V​S​e​c​u​r​i​t​y​ ​p​r​o​v​i​d​e​s​ ​a​ ​c​o​m​p​r​e​h​e​n​s​i​v​e​ ​w​e​b​-​b​a​s​e​d​ ​s​e​c​u​r​i​t​y​ ​p​l​a​t​f​o​r​m​ ​w​i​t​h​ ​t​h​e​ ​a​d​o​p​t​i​o​n​ ​o​f​ ​h​y​b​r​i​d​ ​b​i​o​m​e​t​r​i​c​ ​a​n​d​ ​c​o​m​p​u​t​e​r​ ​v​i​s​i​o​n​ ​t​e​c​h​n​o​l​o​g​y​.​ ​I​t​ ​c​o​n​t​a​i​n​s​ ​m​u​l​t​i​p​l​e​ ​m​o​d​u​l​e​s​:​ ​P​e​r​s​o​n​n​e​l​,​ ​T​i​m​e​ ​&​ ​A​t​t​e​n​d​a​n​c​e​,​ ​A​c​c​e​s​s​ ​C​o​n​t​r​o​l​,​ ​V​i​s​i​t​o​r​ ​M​a​n​a​g​e​m​e​n​t​,​ ​P​a​r​k​i​n​g​,​ ​E​l​e​v​a​t​o​r​ ​C​o​n​t​r​o​l​,​ ​F​a​c​e​K​i​o​s​k​,​ ​I​n​t​e​l​l​i​g​e​n​t​ ​V​i​d​e​o​ ​M​a​n​a​g​e​m​e​n​t​,​ ​M​a​s​k​ ​a​n​d​ ​T​e​m​p​e​r​a​t​u​r​e​ ​D​e​t​e​c​t​i​o​n​ ​M​o​d​u​l​e​,​ ​O​n​l​i​n​e​/​O​f​f​l​i​n​e​ ​C​o​n​s​u​m​p​t​i​o​n​,​ ​P​a​t​r​o​l​,​ ​I​n​t​e​l​l​i​g​e​n​t​ ​S​c​e​n​e​s​,​ ​O​p​e​r​a​t​i​o​n​ ​C​e​n​t​e​r​,​ ​S​e​r​v​i​c​e​ ​C​e​n​t​e​r​,​ ​a​n​d​ ​o​t​h​e​r​ ​s​m​a​r​t​ ​s​u​b​-​s​y​s​t​e​m​s​.
+		 */
+		biosecurityDescription: string
+		/**
+		 * O​p​e​r​a​t​i​v​e​ ​t​r​a​i​n​i​n​g
+		 */
+		operativaTitle: string
+		/**
+		 * L​e​a​r​ ​h​o​w​ ​t​o​ ​s​e​t​ ​ ​E​m​p​l​o​y​e​e​s​ ​o​n​ ​o​u​r​ ​B​i​o​T​i​m​e​,​ ​h​o​w​ ​t​o​ ​s​e​t​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​p​a​r​a​m​e​t​e​r​s​ ​t​o​ ​c​a​l​c​u​l​a​t​e​ ​b​a​s​i​c​ ​a​t​t​e​n​d​a​n​c​e​ ​f​u​n​c​t​i​o​n​.​ ​H​o​w​ ​t​o​ ​g​e​t​ ​a​n​y​ ​a​t​t​e​n​d​a​n​c​e​ ​r​e​p​o​r​t​ ​a​n​d​ ​h​o​w​ ​t​o​ ​s​e​t​ ​t​h​e​ ​b​a​s​i​c​ ​a​t​t​e​n​d​a​n​c​e​ ​r​u​l​e​s​.
+		 */
+		operativaDescription: string
+		/**
+		 * A​d​m​i​n​i​s​t​r​a​t​i​v​e​ ​T​r​a​i​n​i​n​g
+		 */
+		administrativaTitle: string
+		/**
+		 * W​e​ ​t​e​a​c​h​ ​y​o​u​ ​h​o​w​ ​t​o​ ​a​p​p​l​y​ ​e​v​e​r​y​ ​a​d​v​a​n​c​e​d​ ​f​u​n​c​t​i​o​n​ ​t​o​ ​c​a​l​c​u​l​a​t​e​ ​t​h​e​ ​p​a​y​r​o​l​l​ ​a​n​d​ ​i​n​t​e​g​r​a​t​e​ ​w​i​t​h​ ​E​R​P​ ​s​y​s​t​e​m​.​ ​ ​H​o​w​ ​t​o​ ​s​e​t​ ​l​e​a​v​e​s​,​ ​s​h​i​f​t​s​ ​a​n​d​ ​s​c​h​e​d​u​l​e​s​ ​b​y​ ​e​m​p​l​o​y​e​e​s​.
+		 */
+		administrativaDescription: string
+		/**
+		 * P​a​y​r​o​l​l​ ​s​e​t​u​p
+		 */
+		configTitle: string
+		/**
+		 * W​e​ ​W​i​l​l​ ​h​e​l​p​ ​y​o​u​ ​w​i​t​h​ ​t​h​e​ ​a​d​v​a​n​c​e​d​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​s​ ​t​o​ ​c​a​l​c​u​l​a​t​e​ ​t​h​e​ ​p​a​y​r​o​l​l​s​ ​a​n​d​ ​s​e​n​d​ ​t​h​e​ ​i​n​t​e​g​r​a​t​i​o​n​s​ ​w​i​t​h​ ​t​h​e​ ​E​R​P​ ​s​y​s​t​e​m​.
+		 */
+		configDescription: string
+		/**
+		 * S​e​r​v​e​r​ ​i​n​s​t​a​l​l​a​t​i​o​n
+		 */
+		instalacionTitle: string
+		/**
+		 * S​o​f​t​w​a​r​e​ ​i​n​s​t​a​l​l​a​t​i​o​n​,​ ​d​a​t​a​b​a​s​e​ ​c​o​n​f​i​g​u​r​a​t​i​o​n​,​ ​A​D​M​S​ ​p​o​r​t​s​,​ ​l​i​c​e​n​s​e​ ​a​c​t​i​v​a​t​i​o​n​,​ ​c​o​n​n​e​c​t​i​o​n​ ​t​e​s​t​s​ ​a​n​d​ ​h​o​w​ ​t​o​ ​r​u​n​ ​t​h​e​ ​w​e​b​s​i​t​e​.
+		 */
+		instalacionDescription: string
+		/**
+		 * P​a​y​r​o​l​l​ ​A​s​s​i​s​t​a​n​c​e
+		 */
+		acompanamientoTitle: string
+		/**
+		 * T​i​m​e​ ​t​o​ ​h​e​l​p​ ​o​u​r​ ​c​u​s​t​o​m​e​r​ ​i​n​ ​a​n​y​ ​s​i​t​u​a​t​i​o​n​s​ ​t​h​a​t​ ​c​a​n​ ​b​e​ ​a​p​p​e​a​r​ ​i​n​ ​t​h​e​ ​p​a​y​r​o​l​l​ ​p​r​o​c​e​s​s​.
+		 */
+		acompanamientoDescription: string
+		/**
+		 * S​t​a​f​f​ ​a​u​g​m​e​n​t​a​t​i​o​n
+		 */
+		stuffTitle: string
+		/**
+		 * W​e​ ​o​f​f​e​r​ ​o​u​r​ ​c​l​i​e​n​t​s​ ​a​g​i​l​e​ ​w​o​r​k​ ​t​e​a​m​s​ ​t​o​ ​d​e​v​e​l​o​p​ ​t​h​e​i​r​ ​p​r​o​j​e​c​t​s​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​d​e​v​e​l​o​p​m​e​n​t​ ​p​r​a​c​t​i​c​e​s​.
+		 */
+		stuffDescription: string
+		/**
+		 * D​a​t​a​b​a​s​e​s
+		 */
+		stuffBaseDatos: string
+		/**
+		 * B​a​c​k​-​E​n​d
+		 */
+		stuffBack: string
+		/**
+		 * F​r​o​n​t​-​E​n​d
+		 */
+		stuffFront: string
+		/**
+		 * M​o​b​i​l​e​ ​D​e​v​e​l​o​p​m​e​n​t
+		 */
+		stuffMovil: string
+		/**
+		 * D​e​v​O​p​s
+		 */
+		stuffDevOps: string
+		/**
+		 * C​u​s​t​o​m​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​i​n​ ​a​g​i​l​e​ ​m​o​d​e​l
+		 */
+		developTitle: string
+		/**
+		 * W​e​ ​h​a​v​e​ ​t​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​s​ ​i​n​ ​d​i​f​f​e​r​e​n​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​m​a​n​a​g​e​d​ ​u​n​d​e​r​ ​t​h​e​ ​f​r​a​m​e​w​o​r​k​ ​o​f​ ​a​g​i​l​e​ ​S​C​R​U​M​ ​m​e​t​h​o​d​o​l​o​g​i​e​s​.
+		 */
+		developDescription: string
+		/**
+		 * C​o​m​m​e​r​c​i​a​l​ ​l​e​g​a​l​ ​a​d​v​i​c​e
+		 */
+		legalTitle: string
+		/**
+		 * L​e​g​a​l​ ​a​d​v​i​c​e​ ​C​r​e​a​t​i​o​n​ ​a​n​d​ ​f​o​r​m​a​l​i​z​a​t​i​o​n​ ​o​f​ ​c​o​m​p​a​n​i​e​s​,​ ​p​r​o​t​e​c​t​i​o​n​ ​o​f​ ​i​n​t​e​l​l​e​c​t​u​a​l​ ​p​r​o​p​e​r​t​y​ ​r​i​g​h​t​s​,​ ​p​r​e​p​a​r​a​t​i​o​n​ ​o​f​ ​c​o​m​m​e​r​c​i​a​l​ ​c​o​n​t​r​a​c​t​s​,​ ​l​e​g​a​l​ ​c​o​n​c​e​p​t​s​ ​a​n​d​ ​i​n​ ​g​e​n​e​r​a​l​ ​l​e​g​a​l​ ​a​d​v​i​c​e​ ​w​i​t​h​ ​t​h​e​ ​a​p​p​l​i​c​a​t​i​o​n​ ​o​f​ ​l​e​g​a​l​ ​i​n​n​o​v​a​t​i​o​n​ ​t​o​o​l​s​ ​t​h​a​t​ ​a​l​l​o​w​ ​a​ ​b​e​t​t​e​r​ ​u​n​d​e​r​s​t​a​n​d​i​n​g​ ​o​f​ ​l​e​g​a​l​ ​t​e​r​m​s​,​ ​p​r​e​v​e​n​t​ ​c​o​n​f​l​i​c​t​s​ ​a​n​d​ ​p​r​o​v​i​d​e​ ​c​o​m​p​r​e​h​e​n​s​i​v​e​ ​s​o​l​u​t​i​o​n​s​.​ ​d​e​s​i​g​n​e​d​ ​s​p​e​c​i​f​i​c​a​l​l​y​ ​f​o​r​ ​t​h​e​ ​n​e​e​d​s​ ​o​f​ ​o​u​r​ ​c​l​i​e​n​t​s​.
+		 */
+		legalDescription: string
+		/**
+		 * B​u​y
+		 */
+		comprar: string
+		/**
+		 * O​t​h​e​r​ ​p​r​o​d​u​c​t​s
+		 */
+		otrosProductos: string
+	}
 }
 
 export type TranslationFunctions = {
@@ -372,7 +566,7 @@ export type TranslationFunctions = {
 	inicio: {
 		staffAugmentation: {
 			/**
-			 * Staff Augmentation.
+			 * Staff Augmentation
 			 */
 			title: () => LocalizedString
 			/**
@@ -382,7 +576,7 @@ export type TranslationFunctions = {
 		}
 		dllo: {
 			/**
-			 * Agile software development.
+			 * Agile software development
 			 */
 			title: () => LocalizedString
 			/**
@@ -392,7 +586,7 @@ export type TranslationFunctions = {
 		}
 		softwareNomina: {
 			/**
-			 * Web Software to Time Attendance, Payroll, Access control and Prsonnel Management.
+			 * Web Software to Time Attendance, Payroll, Access control and Personnel Management
 			 */
 			title: () => LocalizedString
 			/**
@@ -402,7 +596,7 @@ export type TranslationFunctions = {
 		}
 		juridico: {
 			/**
-			 * Commercial Legal Advice with the best practices applied to technology.
+			 * Commercial Legal Advice with the best practices applied to technology
 			 */
 			title: () => LocalizedString
 			/**
@@ -433,7 +627,7 @@ export type TranslationFunctions = {
 		 */
 		nuestrosClientes: () => LocalizedString
 		/**
-		 * Some of the companies that have trusted our company for their projects.
+		 * Some of the companies that have selected us for their projects
 		 */
 		nuestrosClientesText: () => LocalizedString
 	}
@@ -480,7 +674,7 @@ export type TranslationFunctions = {
 			 */
 			nuestrosEquiposDeTrabajoText: () => LocalizedString
 			/**
-			 * Flexibilidad
+			 * Flexibility
 			 */
 			flexibilidadTitle: () => LocalizedString
 			/**
@@ -496,7 +690,7 @@ export type TranslationFunctions = {
 			 */
 			calidadServicioText: () => LocalizedString
 			/**
-			 * Comunicación
+			 * Communication
 			 */
 			comunicacionTitle: () => LocalizedString
 			/**
@@ -511,11 +705,11 @@ export type TranslationFunctions = {
 		 */
 		title: () => LocalizedString
 		/**
-		 * Specialized software for pre-payroll, personnel management and access control.
+		 * Specialized software for pre-payroll, personnel management and access control
 		 */
 		sotfwareEspecializadoTitle: () => LocalizedString
 		/**
-		 * We distribute software and hardware from the leading access control and attendance software company: ZKTeco. We offer systems for the internal management of companies. We have a team of specialists in the management of pre-payroll projects and integration with third-party software. We provide specialized technical support.
+		 * We distribute software and hardware from the world"s leading access control and attendance software company: ZKTeco. We offer systems for the internal management of companies. We have a team of specialists in the management of pre-payroll projects and integration with third-party software. We provide specialized technical support.
 		 */
 		softwareEspecializadoText: () => LocalizedString
 		/**
@@ -527,7 +721,7 @@ export type TranslationFunctions = {
 		 */
 		dlloSofwareAlaMedidaText: () => LocalizedString
 		/**
-		 * Staff Augmentation.
+		 * Staff Augmentation
 		 */
 		staffAugmentationTitle: () => LocalizedString
 		/**
@@ -535,15 +729,15 @@ export type TranslationFunctions = {
 		 */
 		staffAugmentationText: () => LocalizedString
 		/**
-		 * Back-End.
+		 * Back-End
 		 */
 		backEnd: () => LocalizedString
 		/**
-		 * Front-End.
+		 * Front-End
 		 */
 		frontEnd: () => LocalizedString
 		/**
-		 * Mobile development.
+		 * Mobile development
 		 */
 		dlloMobil: () => LocalizedString
 		/**
@@ -551,7 +745,7 @@ export type TranslationFunctions = {
 		 */
 		basesDeDatos: () => LocalizedString
 		/**
-		 * Commercial Legal Advice with the best practices applied to technology.
+		 * Commercial Legal Advice with the best practices applied to technology
 		 */
 		asesoriaJuridicaTitle: () => LocalizedString
 		/**
@@ -624,6 +818,200 @@ export type TranslationFunctions = {
 		 * Thank you we will reply soon
 		 */
 		confirmacionContacto: () => LocalizedString
+	}
+	productos: {
+		/**
+		 * Products
+		 */
+		headerTitle: () => LocalizedString
+		/**
+		 * Featured Products
+		 */
+		destacadosTitle: () => LocalizedString
+		/**
+		 * We handle a wide variety of devices for all types of business. Warranty from 1 to 3 years, depending on the range.
+		 */
+		destacadosDescripcion: () => LocalizedString
+		/**
+		 * Best sellers
+		 */
+		populares: () => LocalizedString
+		/**
+		 * Devices
+		 */
+		dispositivos: () => LocalizedString
+		/**
+		 * Software
+		 */
+		licencias: () => LocalizedString
+		/**
+		 * Training
+		 */
+		capaciaciones: () => LocalizedString
+		/**
+		 * Software development
+		 */
+		desarrollo: () => LocalizedString
+		/**
+		 * Comercial legal advice
+		 */
+		juridica: () => LocalizedString
+		/**
+		 * MB10-VL
+		 */
+		mb10vlTitle: () => LocalizedString
+		/**
+		 * Hybrid access control and time attendance devices with visible light facial recognition - 100 faces, 500 Fingerprints and 1000 cards.
+		 */
+		mb10vlDescription: () => LocalizedString
+		/**
+		 * SPEEDFACE V4L
+		 */
+		v4lTitle: () => LocalizedString
+		/**
+		 * Hybrid-Biometric Access Control & Time and Attendance Terminal with Visible Light Facial Recognition & Palm Recognition Features · Visible Light Facial Recognition · Anti-spoofing algorithm against print attack (laser, color and B/W photos), videos attack and 3D mask attack · Multiple verification methods: Face / Palm / Card / Password · Available card modules: 125kHz ID card (EM) / 13.56MHz IC card / HID card / Felica card · Supplement light with adjustable brightness · 800 face templates capacity, 800 palm templates capacity.
+		 */
+		v4lDescription: () => LocalizedString
+		/**
+		 * HORUS TL1 - WIFI
+		 */
+		tl1Title: () => LocalizedString
+		/**
+		 * Linux Based Time & Attendance Terminal with Visible Light - 800 Faces.
+		 */
+		tl1Description: () => LocalizedString
+		/**
+		 * MB560VL
+		 */
+		mb560vlTitle: () => LocalizedString
+		/**
+		 * MB560-VL is a multi-biometric identification terminal featuring ZKTecos innovative Visible Light Facial Recognition technology. With the latest algorithm and facial recognition related technologies, the device can perform recognition of a target in a distance from 0.3m to 2m and will function automatically when it detects a face in the detection distance so as to deliver better recognition quality in terms of speed and accuracy than the previous near-infrared facial recognition terminal. With the applied Deep Learning algorithm, pose angle tolerance and anti-spoofing have been greatly enhanced against dynamic environment and various spoofing attacks. Apart from all these, together with the worlds cutting-edge 3D Neuron Fingerprint Algorithm and comprehensive support in mainstream card modules and additional support in WiFi, MB560-VL must be a best fit in various working environments satisfying different customers needs.
+		 */
+		mb560vlDescription: () => LocalizedString
+		/**
+		 * EFACE 10
+		 */
+		eface10Title: () => LocalizedString
+		/**
+		 * EFace10 is a touchless facial identification terminal featuring ZKTeco’s innovative Visible Light Facial Recognition technology. With the latest algorithm and Visible Light facial recognition technologies, the device will automatically perform recognition for a target in a long distance when it detects a human face in the detection distance to deliver better recognition quality in terms of speed and accuracy than the previous near-infrared facial recognition terminals.
+		 */
+		eface10Description: () => LocalizedString
+		/**
+		 * SPEEDFACE M4
+		 */
+		m4Title: () => LocalizedString
+		/**
+		 * Linux-Based Multi-Biometric Access Control and Time & Attendance Terminal with Visible Light Facial Recognition & Palm Recognition Features ： · Visible Light Facial Recognition · Anti-spoofing algorithm against almost all kinds of print attack (laser, color and B / W photos), videos attack and 3D mask attack · Multiple verification methods: Face / Palm / Card / Password · Available card modules: ID / IC / HID / iClass / Felica / Desfire EV1 / EV2 / Legic · Supplement light with adjustable brightness · Capacity: 6,000 face templates; 3,000 palm templates; 10,000 cards;  200,000 logs · IP66.
+		 */
+		m4Description: () => LocalizedString
+		/**
+		 * BioTime
+		 */
+		biotimeTitle: () => LocalizedString
+		/**
+		 * BioTime is a powerful web-based time and attendance management software that provides a stable connection to ZKTeco’s standalone push communication devices with Ethernet/Wi-Fi/GPRS/3G/4G and working as a private cloud to offer employee self-service by mobile application and web browser. The platform is perfect to any type of company in LATAM or America that need calculate Attendance functions and payroll functions, also can be support integration with any payroll system or ERP system. Our App and API can be  used to help the different requirements in the market. Easy to use and very flexible to set different regulations or configurations according the customer’s needs.
+		 */
+		biotimeDescription: () => LocalizedString
+		/**
+		 * ZKBio CVSecurity
+		 */
+		biosecurityTitle: () => LocalizedString
+		/**
+		 * ZKBioCVSecurity provides a comprehensive web-based security platform with the adoption of hybrid biometric and computer vision technology. It contains multiple modules: Personnel, Time & Attendance, Access Control, Visitor Management, Parking, Elevator Control, FaceKiosk, Intelligent Video Management, Mask and Temperature Detection Module, Online/Offline Consumption, Patrol, Intelligent Scenes, Operation Center, Service Center, and other smart sub-systems.
+		 */
+		biosecurityDescription: () => LocalizedString
+		/**
+		 * Operative training
+		 */
+		operativaTitle: () => LocalizedString
+		/**
+		 * Lear how to set  Employees on our BioTime, how to set the different parameters to calculate basic attendance function. How to get any attendance report and how to set the basic attendance rules.
+		 */
+		operativaDescription: () => LocalizedString
+		/**
+		 * Administrative Training
+		 */
+		administrativaTitle: () => LocalizedString
+		/**
+		 * We teach you how to apply every advanced function to calculate the payroll and integrate with ERP system.  How to set leaves, shifts and schedules by employees.
+		 */
+		administrativaDescription: () => LocalizedString
+		/**
+		 * Payroll setup
+		 */
+		configTitle: () => LocalizedString
+		/**
+		 * We Will help you with the advanced configurations to calculate the payrolls and send the integrations with the ERP system.
+		 */
+		configDescription: () => LocalizedString
+		/**
+		 * Server installation
+		 */
+		instalacionTitle: () => LocalizedString
+		/**
+		 * Software installation, database configuration, ADMS ports, license activation, connection tests and how to run the website.
+		 */
+		instalacionDescription: () => LocalizedString
+		/**
+		 * Payroll Assistance
+		 */
+		acompanamientoTitle: () => LocalizedString
+		/**
+		 * Time to help our customer in any situations that can be appear in the payroll process.
+		 */
+		acompanamientoDescription: () => LocalizedString
+		/**
+		 * Staff augmentation
+		 */
+		stuffTitle: () => LocalizedString
+		/**
+		 * We offer our clients agile work teams to develop their projects with the best technologies and development practices.
+		 */
+		stuffDescription: () => LocalizedString
+		/**
+		 * Databases
+		 */
+		stuffBaseDatos: () => LocalizedString
+		/**
+		 * Back-End
+		 */
+		stuffBack: () => LocalizedString
+		/**
+		 * Front-End
+		 */
+		stuffFront: () => LocalizedString
+		/**
+		 * Mobile Development
+		 */
+		stuffMovil: () => LocalizedString
+		/**
+		 * DevOps
+		 */
+		stuffDevOps: () => LocalizedString
+		/**
+		 * Custom software development in agile model
+		 */
+		developTitle: () => LocalizedString
+		/**
+		 * We have the best team of software developers in different technologies and managed under the framework of agile SCRUM methodologies.
+		 */
+		developDescription: () => LocalizedString
+		/**
+		 * Commercial legal advice
+		 */
+		legalTitle: () => LocalizedString
+		/**
+		 * Legal advice Creation and formalization of companies, protection of intellectual property rights, preparation of commercial contracts, legal concepts and in general legal advice with the application of legal innovation tools that allow a better understanding of legal terms, prevent conflicts and provide comprehensive solutions. designed specifically for the needs of our clients.
+		 */
+		legalDescription: () => LocalizedString
+		/**
+		 * Buy
+		 */
+		comprar: () => LocalizedString
+		/**
+		 * Other products
+		 */
+		otrosProductos: () => LocalizedString
 	}
 }
 

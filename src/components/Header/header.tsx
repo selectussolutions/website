@@ -58,13 +58,13 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
         >
           {LL.header.servicios()}
         </a>
-{/*         <a
+        <a
           href='/productos'
           className={active === 'productos' ? 'active' : ''}
           onClick={() => setActive('productos')}
         >
           {LL.header.productos()}
-        </a> */}
+        </a>
       </div>
       <div className='button-container'>
         <button
@@ -131,7 +131,7 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
             {LL.header.servicios()}
           </a>
         </li>
-        {/* <li>
+        <li>
           <a
             href='/productos'
             className={active === 'productos' ? 'active' : ''}
@@ -139,14 +139,14 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
           >
             {LL.header.productos()}
           </a>
-        </li> */}
+        </li>
 
         <li>
           <div className='button-container-select'>
             <span> {LL.header.language()}</span>
             <ul>
               {locales.map(localeLanguage => (
-                <li>
+                <li >
                   <input
                     type='radio'
                     id='javascript'

@@ -12,7 +12,7 @@ const Footer = (): ReactElement => {
           <a href='/'>{LL.header.inicio()}</a>
           <a href='/nosotros'>{LL.header.nosotros()}</a>
           <a href='/servicios'>{LL.header.servicios()}</a>
-          {/* <a href='/productos'>{LL.header.productos()}</a> */}
+          <a href='/productos'>{LL.header.productos()}</a>
         </div>
       </div>
       <div className='footer-icons'>

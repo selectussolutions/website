@@ -9,6 +9,7 @@ import { loadLocaleAsync } from './i18n/i18n-util.async';
 import { Nosotros } from './components/Nosotros';
 import { Servicios } from './components/Servicios';
 import { Contacto } from './components/Contacto';
+import { Productos } from './components/Productos';
 
 const detectedLocale = detectLocale(localStorageDetector);
 
@@ -29,6 +30,7 @@ const App = () => {
           <Route path='nosotros' element={<Nosotros />} />
           <Route path='servicios' element={<Servicios />} />
           <Route path='contacto' element={<Contacto />} />
+          <Route path='productos' element={<Productos />} />
         </Routes>
       </BrowserRouter>
     </TypesafeI18n>

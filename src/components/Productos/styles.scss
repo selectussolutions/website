@@ -1,0 +1,264 @@
+@import '../../custom.scss';
+
+.home-container {
+  .nosotros-header {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .nosotros-header-item {
+      width: 50%;
+
+      &:nth-child(2) {
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+
+  .about-us-container {
+    &:not(.white) {
+      height: 725px;
+    }
+
+    &.services {
+      height: 438px;
+    }
+
+    &.white {
+      background-color: $white;
+    }
+
+    .nosotros-item {
+      img {
+        max-width: 94%;
+      }
+
+      .elegirnos-options {
+        img {
+          max-width: unset;
+        }
+      }
+    }
+  }
+
+  .nosotros-images:first-child {
+    width: 66%;
+  }
+
+  .nosotros-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto;
+    width: 100%;
+
+    .nosotros-image-item {
+      margin-right: 16px;
+      width: unset;
+
+      img {
+        width: 100%;
+      }
+
+      .left-image-container {
+        margin-top: 32px;
+        padding-left: 120px;
+      }
+    }
+  }
+
+  .nosotros-item {
+    width: 50%;
+
+    &.right {
+      text-align: right;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      font-family: 'Sofia Pro';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      color: $textHight;
+    }
+  }
+
+  .elegirnos-options {
+    .option {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 40px;
+
+      .text {
+        margin-left: 32px;
+
+        .title {
+          font-family: 'Sofia Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: $textHight;
+          margin-bottom: 16px;
+        }
+
+        .description {
+          font-family: 'Sofia Pro';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .nosotros-header {
+      flex-direction: column !important;
+
+      .nosotros-header-item:first-child {
+        text-align: center;
+      }
+
+      .nosotros-header-item:last-child {
+        width: 100%;
+      }
+    }
+
+    .nosotros-images {
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+
+    .nosotros-image-item {
+      &:first-child {
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 80%;
+      }
+
+      .left-image-container {
+        padding-left: 0 !important;
+        margin-top: 20px !important;
+      }
+    }
+
+    .about-us-container {
+      padding: 0 16px;
+      background: $white;
+      height: auto !important;
+
+      &.white {
+        margin-bottom: 28px;
+      }
+
+      img {
+        width: unset;
+        height: unset;
+      }
+
+      .nosotros-item {
+        width: unset;
+      }
+    }
+
+  }
+
+
+  .destacados {
+
+    background: $lightGray;
+   
+
+  }
+
+
+
+
+  input[type='submit'] {
+    background-color: $primary;
+    width: 150px;
+    height: 50px;
+    color: white;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 8px;
+    border: none;
+
+    &:disabled {
+      background-color: lightgray;
+    }
+  }
+
+
+  .card-img-top{
+
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+
+  .card-img-top-big{
+
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+
+  .card-img-top-small{
+
+    max-width: 200px;
+    max-width: 200px;
+  }
+
+
+  .card-img-top-software{
+
+    max-width: 150px;
+    max-width: 150px;
+  }
+
+  .card-img-top-medium{
+
+    max-width: 300px;
+    max-width: 300px;
+  }
+
+  .card-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: $textBody;
+  }
+
+
+  ul.software li.active-parent ul.sub-menu li a {
+    color: $textBody !important;
+}
+
+.Mui-selected{
+
+  color: #502c85 !important;
+}
+
+
+}
