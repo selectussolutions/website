@@ -61,7 +61,8 @@
 
     .cards {
       display: flex;
-      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
       .card-empty {
         width: 400px;
         height: 380px;

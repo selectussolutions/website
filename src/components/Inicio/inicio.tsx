@@ -46,10 +46,7 @@ const Inicio = (): ReactElement => {
             icon='/static/images/icons/dllo.png'
             bodyText={LL.inicio.dllo.bodyText()}
           ></Card>
-          <div className='card-empty'></div>
-        </div>
-        <div className='cards'>
-          <div className='card-empty'></div>
+
           <Card
             title={LL.inicio.softwareNomina.title()}
             icon='/static/images/icons/pre.png'
@@ -71,7 +68,7 @@ const Inicio = (): ReactElement => {
           <p>{LL.inicio.sobreNosotros.text()}</p>
         </div>
       </div>
-{/*       <div className='home-body hide-mobile'>
+      {/*       <div className='home-body hide-mobile'>
         <div className='row'>
           <h1>{LL.inicio.loqueDicenNuestrosClientes()}</h1>
         </div>
@@ -131,7 +128,6 @@ const Inicio = (): ReactElement => {
           <p className='our-client-text'>{LL.inicio.nuestrosClientesText()}</p>
         </div>
         <div className='our-client-item num2'>
-
           <div className='client-container'>
             <div className='client-image-container'>
               <img src='/static/images/clients/bgClient_09.png'></img>
@@ -139,19 +135,16 @@ const Inicio = (): ReactElement => {
             <div className='client-image-container diff'>
               <img src='/static/images/clients/bgClient_03.png'></img>
             </div>
-
           </div>
 
-
           <div className='client-container'>
-          <div className='client-image-container'>
+            <div className='client-image-container'>
               <img src='/static/images/clients/bgClient_06.png'></img>
             </div>
             <div className='client-image-container'>
-            <img src='/static/images/clients/bgClient_01.png'></img>
+              <img src='/static/images/clients/bgClient_01.png'></img>
             </div>
           </div>
-
 
           <div className='client-container diff'>
             <div className='client-image-container'>
@@ -170,7 +163,6 @@ const Inicio = (): ReactElement => {
               <img src='/static/images/clients/bgClient_04.png'></img>
             </div>
           </div> */}
-
         </div>
       </div>
       <Footer></Footer>
