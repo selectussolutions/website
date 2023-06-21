@@ -31,7 +31,7 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
   return (
     <div className='header-container'>
       <img
-        src='static/images/headerlogo.png'
+        src='static/images/Logo_Colorlogo.v1.png'
         alt='header-logo'
         className='header-logo'
       ></img>
@@ -146,7 +146,7 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
             <span> {LL.header.language()}</span>
             <ul>
               {locales.map(localeLanguage => (
-                <li >
+                <li>
                   <input
                     type='radio'
                     id='javascript'
