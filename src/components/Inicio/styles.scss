@@ -1,4 +1,6 @@
 @import '../../custom.scss';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 
 .home-container {
   .top-image {
@@ -63,6 +65,7 @@
       display: flex;
       margin: 0 auto;
       flex-wrap: wrap;
+      justify-content: center;
       .card-empty {
         width: 400px;
         height: 380px;
@@ -196,6 +199,11 @@
     line-height: 48px;
   }
 
+
+  .card-container{
+    min-width: none;
+  }
+
   @media (max-width: 1023px) {
     .cards {
       flex-direction: column;
@@ -206,7 +214,7 @@
 
       .card-container {
         margin-right: unset;
-        width: 100%;
+        width: 100% ;
       }
     }
 

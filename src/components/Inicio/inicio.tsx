@@ -6,6 +6,179 @@ import './styles.scss';
 import { Header } from '../Header';
 import { Card } from '../Card';
 import { Footer } from '../Footer';
+import ImageGallery from 'react-image-gallery';
+
+const imgWidth = 150;
+const imgHeight = 150;
+
+
+
+
+const images = [
+
+  {
+    original: '/static/images/clients/ventura group.png',
+    thumbnail: '/static/images/clients/ventura group.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+  {
+    original: '/static/images/clients/avery dennison.png',
+    thumbnail: '/static/images/clients/avery dennison.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+  {
+    original: '/static/images/clients/ofi.png',
+    thumbnail: '/static/images/clients/ofi.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+
+  {
+    original: '/static/images/clients/CARBOMAX.png',
+    thumbnail: '/static/images/clients/CARBOMAX.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+  {
+    original: '/static/images/clients/centro mayor.png',
+    thumbnail: '/static/images/clients/centro mayor.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+  {
+    original: '/static/images/clients/damasa.png',
+    thumbnail: '/static/images/clients/damasa.png',
+    originalHeight : 100,
+    originalWidth :imgHeight,
+  },
+
+
+  {
+    original: '/static/images/clients/todaco.png',
+    thumbnail: '/static/images/clients/todaco.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+  {
+    original: '/static/images/clients/turk house.png',
+    thumbnail: '/static/images/clients/turk house.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+
+  {
+    original: '/static/images/clients/Calima.png',
+    thumbnail: '/static/images/clients/Calima.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+  {
+    original: '/static/images/clients/aliklean.png',
+    thumbnail: '/static/images/clients/aliklean.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/carnes santacruz.png',
+    thumbnail: '/static/images/clients/carnes santacruz.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/carnes y carnes.png',
+    thumbnail: '/static/images/clients/carnes y carnes.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+
+  {
+    original: '/static/images/clients/clinica santa ana.png',
+    thumbnail: '/static/images/clients/clinica santa ana.png',
+    originalHeight : 70,
+    originalWidth : imgHeight,
+  },
+  {
+    original: '/static/images/clients/cobb.png',
+    thumbnail: '/static/images/clients/cobb.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/concremack.png',
+    thumbnail: '/static/images/clients/concremack.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/crazy town.png',
+    thumbnail: '/static/images/clients/crazy town.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+
+  {
+    original: '/static/images/clients/dsierra.png',
+    thumbnail: '/static/images/clients/dsierra.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/gesvalt.png',
+    thumbnail: '/static/images/clients/gesvalt.png',
+    originalHeight : 70,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/italco.png',
+    thumbnail: '/static/images/clients/italco.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+  {
+    original: '/static/images/clients/labbrands.png',
+    thumbnail: '/static/images/clients/labbrands.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+  {
+    original: '/static/images/clients/logo-econtainers-azul-oscuro.png',
+    thumbnail: '/static/images/clients/logo-econtainers-azul-oscuro.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+
+  {
+    original: '/static/images/clients/panaderia-barichara.png',
+    thumbnail: '/static/images/clients/panaderia-barichara.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/secap.png',
+    thumbnail: '/static/images/clients/secap.png',
+    originalHeight : imgWidth,
+    originalWidth :imgHeight,
+  },
+  {
+    original: '/static/images/clients/sudamin.png',
+    thumbnail: '/static/images/clients/sudamin.png',
+    originalHeight : 100,
+    originalWidth :100,
+  },
+
+
+
+
+  
+];
+
 
 const Inicio = (): ReactElement => {
   const { LL } = useI18nContext();
@@ -127,42 +300,14 @@ const Inicio = (): ReactElement => {
 
           <p className='our-client-text'>{LL.inicio.nuestrosClientesText()}</p>
         </div>
-        <div className='our-client-item num2'>
-          <div className='client-container'>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_09.png'></img>
-            </div>
-            <div className='client-image-container diff'>
-              <img src='/static/images/clients/bgClient_03.png'></img>
-            </div>
-          </div>
+        <div className='our-client-item num2 px-2 mt-4 mt-md-0'>
 
-          <div className='client-container'>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_06.png'></img>
-            </div>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_01.png'></img>
-            </div>
-          </div>
+        <ImageGallery 
+        items={images} 
+        autoPlay={true} 
+        showFullscreenButton={false}
+         />
 
-          <div className='client-container diff'>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_05.png'></img>
-            </div>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_08.png'></img>
-            </div>
-          </div>
-
-          {/* <div className='client-container'>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_02.png'></img>
-            </div>
-            <div className='client-image-container'>
-              <img src='/static/images/clients/bgClient_04.png'></img>
-            </div>
-          </div> */}
         </div>
       </div>
       <Footer></Footer>
