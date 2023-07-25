@@ -24,7 +24,7 @@ type RootTranslation = {
 		 */
 		nosotros: string
 		/**
-		 * s​e​r​v​i​c​e​s
+		 * S​e​r​v​i​c​e​s
 		 */
 		servicios: string
 		/**
@@ -89,7 +89,7 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * O​f​r​e​c​e​m​o​s​ ​s​i​s​t​e​m​a​s​ ​p​a​r​a​ ​l​a​ ​g​e​s​t​i​o​́​n​ ​i​n​t​e​r​n​a​ ​d​e​ ​l​a​s​ ​e​m​p​r​e​s​a​s​.
+			 * W​e​ ​o​f​f​e​r​ ​s​y​s​t​e​m​s​ ​f​o​r​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​c​o​m​p​a​n​i​e​s​.
 			 */
 			bodyText: string
 		}
@@ -99,12 +99,12 @@ type RootTranslation = {
 			 */
 			title: string
 			/**
-			 * T​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​l​e​g​a​l​ ​a​d​v​i​s​o​r​s​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​u​p​p​o​r​t​ ​t​o​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​i​n​ ​t​h​e​ ​c​o​m​m​e​r​c​i​a​l​,​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​a​n​d​ ​i​n​t​e​l​l​e​c​t​u​a​l​ ​p​r​o​p​e​r​t​y​ ​i​n​d​u​s​t​r​y​'​s
+			 * T​h​e​ ​b​e​s​t​ ​t​e​a​m​ ​o​f​ ​l​e​g​a​l​ ​a​d​v​i​s​o​r​s​ ​t​o​ ​p​r​o​v​i​d​e​ ​s​u​p​p​o​r​t​ ​t​o​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​ ​i​n​ ​t​h​e​ ​c​o​m​m​e​r​c​i​a​l​,​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​a​n​d​ ​i​n​t​e​l​l​e​c​t​u​a​l​ ​p​r​o​p​e​r​t​y​ ​i​n​d​u​s​t​r​y​'​s​.
 			 */
 			bodyText: string
 		}
 		/**
-		 * O​u​r​ ​s​e​r​v​i​c​e​s
+		 * O​u​r​ ​S​e​r​v​i​c​e​s
 		 */
 		nuestrosServicios: string
 		sobreNosotros: {
@@ -272,11 +272,11 @@ type RootTranslation = {
 		 */
 		nuestrosServicios: string
 		/**
-		 * D​i​f​f​e​r​e​n​t​ ​d​e​v​i​c​e​s​ ​f​o​r​ ​d​i​f​f​e​r​e​n​t​ ​t​y​p​e​s​ ​o​f​ ​b​u​s​i​n​e​s​s
+		 * D​i​f​f​e​r​e​n​t​ ​d​e​v​i​c​e​s​ ​f​o​r​ ​d​i​f​f​e​r​e​n​t​ ​t​y​p​e​s​ ​o​f​ ​b​u​s​i​n​e​s​s​.
 		 */
 		dispositivosCard1: string
 		/**
-		 * D​e​v​i​c​e​s​ ​w​a​r​r​a​n​t​y​ ​f​r​o​m​ ​1​ ​t​o​ ​3​ ​y​e​a​r​s​,​ ​a​c​c​o​r​d​i​n​g​ ​ ​o​n​ ​t​h​e​ ​l​i​n​e​.​ ​D​e​v​i​c​e​s​ ​w​i​t​h​ ​t​h​e​ ​m​o​s​t​ ​r​e​c​e​n​t​ ​ ​t​e​c​h​n​o​l​o​g​y​.​ ​(​F​a​c​e​,​ ​I​r​i​s​,​ ​F​i​n​g​e​r​p​r​i​n​t​,​ ​V​e​i​n​ ​a​n​d​ ​o​t​h​e​r​s​)
+		 * D​e​v​i​c​e​s​ ​w​a​r​r​a​n​t​y​ ​f​r​o​m​ ​1​ ​t​o​ ​3​ ​y​e​a​r​s​,​ ​a​c​c​o​r​d​i​n​g​ ​ ​o​n​ ​t​h​e​ ​l​i​n​e​.​ ​D​e​v​i​c​e​s​ ​w​i​t​h​ ​t​h​e​ ​m​o​s​t​ ​r​e​c​e​n​t​ ​ ​t​e​c​h​n​o​l​o​g​y​.​ ​(​F​a​c​e​,​ ​I​r​i​s​,​ ​F​i​n​g​e​r​p​r​i​n​t​,​ ​V​e​i​n​ ​a​n​d​ ​o​t​h​e​r​s​)​.
 		 */
 		dispositivosCard2: string
 	}
@@ -525,7 +525,7 @@ export type TranslationFunctions = {
 		 */
 		nosotros: () => LocalizedString
 		/**
-		 * services
+		 * Services
 		 */
 		servicios: () => LocalizedString
 		/**
@@ -590,7 +590,7 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * Ofrecemos sistemas para la gestión interna de las empresas.
+			 * We offer systems for the internal management of companies.
 			 */
 			bodyText: () => LocalizedString
 		}
@@ -600,12 +600,12 @@ export type TranslationFunctions = {
 			 */
 			title: () => LocalizedString
 			/**
-			 * The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's
+			 * The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's.
 			 */
 			bodyText: () => LocalizedString
 		}
 		/**
-		 * Our services
+		 * Our Services
 		 */
 		nuestrosServicios: () => LocalizedString
 		sobreNosotros: {
@@ -773,11 +773,11 @@ export type TranslationFunctions = {
 		 */
 		nuestrosServicios: () => LocalizedString
 		/**
-		 * Different devices for different types of business
+		 * Different devices for different types of business.
 		 */
 		dispositivosCard1: () => LocalizedString
 		/**
-		 * Devices warranty from 1 to 3 years, according  on the line. Devices with the most recent  technology. (Face, Iris, Fingerprint, Vein and others)
+		 * Devices warranty from 1 to 3 years, according  on the line. Devices with the most recent  technology. (Face, Iris, Fingerprint, Vein and others).
 		 */
 		dispositivosCard2: () => LocalizedString
 	}

@@ -32,14 +32,16 @@
         display: flex;
         align-items: center;
         color: rgba(255, 255, 255, 0.87);
-        text-align: center;
+       
       }
       .top-slogan {
         margin-top: 32px;
+        font-family: 'Sofia Pro Light';
       }
 
       button {
         margin-top: 32px;
+        font-family: 'Sofia Pro Light';
       }
     }
   }
@@ -231,7 +233,7 @@
       }
 
       .about-us-item:nth-child(2) {
-        margin-top: 40px;
+        margin-top: 20px;
         width: 327px;
       }
     }

@@ -5,7 +5,7 @@ const en: Translation = {
   header: {
     inicio: 'Home',
     nosotros: 'Who we are',
-    servicios: 'services',
+    servicios: 'Services',
     productos: 'Products',
     contactoButton: 'Contact',
     language: 'Language',
@@ -32,15 +32,15 @@ const en: Translation = {
     softwareNomina: {
       title:
         'Web Software to Time Attendance, Payroll, Access control and Personnel Management',
-      bodyText: 'Ofrecemos sistemas para la gestión interna de las empresas.',
+      bodyText: 'We offer systems for the internal management of companies.',
     },
     juridico: {
       title:
         'Commercial Legal Advice with the best practices applied to technology',
       bodyText:
-        "The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's",
+        "The best team of legal advisors to provide support to our customers  in the commercial, technological and intellectual property industry's.",
     },
-    nuestrosServicios: 'Our services',
+    nuestrosServicios: 'Our Services',
     sobreNosotros: {
       title: 'About Us',
       text: 'We are a company that was born on 2021, created in order to provide smarts solutions to the management of the internal processes of any type of companies with technological services and a human and great team that is available to its clients willing to find solutions. prompt and effective for those who need it.',
@@ -102,9 +102,9 @@ const en: Translation = {
     bioSecurity: 'Software to Acces Control',
     dispositivosCA: 'Access Control devices',
     nuestrosServicios: 'Our Services',
-    dispositivosCard1: 'Different devices for different types of business',
+    dispositivosCard1: 'Different devices for different types of business.',
     dispositivosCard2:
-      'Devices warranty from 1 to 3 years, according  on the line. Devices with the most recent  technology. (Face, Iris, Fingerprint, Vein and others)',
+      'Devices warranty from 1 to 3 years, according  on the line. Devices with the most recent  technology. (Face, Iris, Fingerprint, Vein and others).',
   },
   contacto: {
     headerTitle: 'Contact',

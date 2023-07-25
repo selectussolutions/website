@@ -118,6 +118,7 @@
       line-height: 25px;
       border-radius: 8px;
       border: none;
+      font-family: 'Sofia Pro Light';
 
       &:disabled {
         background-color: lightgray;
@@ -166,6 +167,7 @@
         input[type='submit'] {
           width: 100%;
           margin-top: 28px;
+          font-family: 'Sofia Pro Light';
         }
       }
     }

@@ -32,7 +32,7 @@
     "dev": "npm-run-all --parallel start typesafe-i18n",
     "typesafe-i18n": "typesafe-i18n",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "-d build"
   },
   "eslintConfig": {
     "extends": [

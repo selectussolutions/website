@@ -122,7 +122,7 @@ const Productos = (): ReactElement => {
         <Box sx={{ width: '100%' }}>
           <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
             <Tabs value={value} onChange={handleChange}
-              TabIndicatorProps={{ style: { background: '#502c85', height: 3, color: '#502c85' } }}
+              TabIndicatorProps={{ style: { background: '#502c85', height: 3, color: '#502c85'  } }}
               aria-label="products">
               <Tab label={LL.productos.populares()} {...a11yProps(0)} />
               <Tab label={LL.productos.dispositivos()} {...a11yProps(1)} />

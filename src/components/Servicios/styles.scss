@@ -1,6 +1,7 @@
 @import '../../custom.scss';
 
 .home-container {
+
   .nosotros-header {
     width: 85%;
     display: flex;
@@ -10,8 +11,9 @@
 
     .nosotros-header-item {
       width: 50%;
+
       &:nth-child(2) {
-        font-family: 'Sofia Pro';
+        font-family: 'Sofia Pro Light';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
@@ -19,6 +21,17 @@
         color: rgba(0, 0, 0, 0.6);
       }
     }
+  }
+
+
+  h1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $textHight;
+    margin-bottom: 24px;
   }
 
   .about-us-container {
@@ -44,15 +57,6 @@
       text-align: right;
     }
 
-    h1 {
-      margin-bottom: 40px;
-      font-family: 'Sofia Pro';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 48px;
-      color: $textHight;
-    }
   }
 
   .servicios-first-container-text {
@@ -72,7 +76,7 @@
     }
 
     .text {
-      font-family: 'Sofia Pro';
+      font-family: 'Sofia Pro Light';
       font-style: normal;
       font-weight: 300;
       font-size: 18px;
@@ -201,22 +205,28 @@
           }
         }
 
+
         .dispositivo-card {
+          position: relative;
           width: 502px;
           height: 192px;
-          left: 730px;
-          top: 3718px;
           background: $white;
           box-shadow: 0px 26px 40px rgba(0, 0, 0, 0.12);
           border-radius: 16px;
-          padding: 48px 88px;
           margin-bottom: 26px;
+
           p {
-            font-family: 'Sofia Pro';
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-family: 'Sofia Pro Light';
             font-style: normal;
             font-weight: 300;
             font-size: 20px;
-            line-height: 32px;
+            line-height: 25px;
             color: rgba(0, 0, 0, 0.6);
           }
         }

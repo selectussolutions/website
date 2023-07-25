@@ -1,6 +1,7 @@
 @import '../../custom.scss';
 
 .home-container {
+
   .nosotros-header {
     width: 85%;
     display: flex;
@@ -12,7 +13,7 @@
       width: 50%;
 
       &:nth-child(2) {
-        font-family: 'Sofia Pro';
+        font-family: 'Sofia Pro Light';
         font-style: normal;
         font-weight: 300;
         font-size: 18px;
@@ -21,6 +22,48 @@
       }
     }
   }
+
+
+  h1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: $textHight;
+    margin-bottom: 24px;
+  }
+
+
+  h5 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 48px;
+    color: $textHight;
+  }
+
+  h2 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: 48px;
+    color: $textHight;
+  }
+
+
+
+  p {
+    font-family: 'Sofia Pro Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
 
   .about-us-container {
     &:not(.white) {
@@ -79,16 +122,6 @@
     &.right {
       text-align: right;
     }
-
-    h1 {
-      margin-bottom: 40px;
-      font-family: 'Sofia Pro';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 48px;
-      color: $textHight;
-    }
   }
 
   .elegirnos-options {
@@ -111,7 +144,7 @@
         }
 
         .description {
-          font-family: 'Sofia Pro';
+          font-family: 'Sofia Pro Light';
           font-style: normal;
           font-weight: 300;
           font-size: 18px;

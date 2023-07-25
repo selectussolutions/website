@@ -11,9 +11,6 @@ import ImageGallery from 'react-image-gallery';
 const imgWidth = 150;
 const imgHeight = 150;
 
-
-
-
 const images = [
 
   {
@@ -219,8 +216,9 @@ const Inicio = (): ReactElement => {
             icon='/static/images/icons/dllo.png'
             bodyText={LL.inicio.dllo.bodyText()}
           ></Card>
-
-          <Card
+        </div>
+        <div className='cards'>
+        <Card
             title={LL.inicio.softwareNomina.title()}
             icon='/static/images/icons/pre.png'
             bodyText={LL.inicio.softwareNomina.bodyText()}
@@ -230,7 +228,9 @@ const Inicio = (): ReactElement => {
             icon='/static/images/icons/aseso.png'
             bodyText={LL.inicio.juridico.bodyText()}
           ></Card>
+          
         </div>
+
       </div>
       <div className='about-us-container'>
         <div className='about-us-item'>
