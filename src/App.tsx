@@ -10,6 +10,7 @@ import { Nosotros } from './components/Nosotros';
 import { Servicios } from './components/Servicios';
 import { Contacto } from './components/Contacto';
 import { Productos } from './components/Productos';
+import { Landing } from './components/Landing';
 
 const detectedLocale = detectLocale(localStorageDetector);
 
@@ -25,12 +26,13 @@ const App = () => {
   return (
     <TypesafeI18n locale={detectedLocale}>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes >
+        <Routes>
           <Route index element={<Inicio />} />
           <Route path='nosotros' element={<Nosotros />} />
           <Route path='servicios' element={<Servicios />} />
           <Route path='contacto' element={<Contacto />} />
           <Route path='productos' element={<Productos />} />
+          <Route path='campaign' element={<Landing />} />
         </Routes>
       </BrowserRouter>
     </TypesafeI18n>

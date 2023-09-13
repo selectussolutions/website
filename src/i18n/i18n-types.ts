@@ -512,6 +512,20 @@ type RootTranslation = {
 		 */
 		otrosProductos: string
 	}
+	landing: {
+		/**
+		 * T​o​g​e​t​h​e​r​ ​w​e​ ​b​u​i​l​d​ ​i​n​s​p​i​r​i​n​g​ ​d​i​g​i​t​a​l​ ​p​r​o​d​u​c​t​s
+		 */
+		title: string
+		/**
+		 * S​o​f​t​w​a​r​e​ ​D​e​v​e​l​o​p​m​e​n​t​ ​|​ ​I​n​n​o​v​a​t​i​v​e​ ​T​e​c​h​n​o​l​o​g​y​ ​|​ ​R​e​l​i​a​b​l​e​ ​Q​u​a​l​i​t​y​ ​|​ ​E​n​d​-​t​o​-​E​n​d​ ​S​e​r​v​i​c​e
+		 */
+		subtitle: string
+		/**
+		 * B​o​o​k​ ​a​ ​C​a​l​l
+		 */
+		button: string
+	}
 }
 
 export type TranslationFunctions = {
@@ -1012,6 +1026,20 @@ export type TranslationFunctions = {
 		 * Other products
 		 */
 		otrosProductos: () => LocalizedString
+	}
+	landing: {
+		/**
+		 * Together we build inspiring digital products
+		 */
+		title: () => LocalizedString
+		/**
+		 * Software Development | Innovative Technology | Reliable Quality | End-to-End Service
+		 */
+		subtitle: () => LocalizedString
+		/**
+		 * Book a Call
+		 */
+		button: () => LocalizedString
 	}
 }
 

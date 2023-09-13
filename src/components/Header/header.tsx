@@ -146,15 +146,14 @@ const Header = ({ activeOption }: HeaderProps): ReactElement => {
             <span> {LL.header.language()}</span>
             <ul>
               {locales.map(localeLanguage => (
-                <li>
+                <li key={localeLanguage}>
                   <input
                     type='radio'
                     id='javascript'
                     name='fav_language'
-                    key={localeLanguage}
                     value={localeLanguage}
                     onClick={e => onLocaleSelected(e as any)}
-                    checked={locale === localeLanguage}
+                    defaultChecked={locale === localeLanguage}
                   />
 
                   <span>{localeLanguage.toUpperCase()}</span>

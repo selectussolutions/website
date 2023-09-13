@@ -127,52 +127,73 @@ const es: BaseTranslation = {
     destacadosTitle: 'Productos destacados',
     destacadosDescripcion:
       'Manejamos una alta variedad de dispositivos para todos los tipos de negocio. Garantía de 1 a 3 años, dependiendo de la gama.',
-      populares: 'Populares',
-      dispositivos: 'Dispositivos',
-      licencias: 'Licencias',
-      capaciaciones: 'Capacitaciones',
-      desarrollo: 'Desarrollo de software',
-      juridica: 'Asesoría jurídica comercial',
-      mb10vlTitle: 'MB10-VL',
-      mb10vlDescription: 'Terminal híbrida de control de acceso y asistencia con reconocimiento facial de luz visible - 100 rostros, 500 huellas y 1000 tarjetas.',
-      v4lTitle: 'SPEEDFACE V4L',
-      v4lDescription: 'Dispositivo Biométrico con reconocimiento de rostro, palma y tarjeta sin contacto - 800 rostros y 800 palmas.',
-      tl1Title: 'HORUS TL1 - WIFI',
-      tl1Description: 'Terminal de tiempo y asistencia basado en Linux con Visible Light - 800 rostros.',
-      mb560vlTitle: 'MB560VL',
-      mb560vlDescription: 'Terminal de control de acceso y asistencia con reconocimiento facial – 3000 rostros y 3000 huellas.',
-      eface10Title: 'EFACE 10',
-      eface10Description: 'Terminal de reconocimiento facial sin contacto con Visible Light – 500 rostros y 1000 tarjetas.',
-      m4Title: 'SPEEDFACE M4',
-      m4Description: 'Protección contra polvo y chorros de agua, reconocimiento por rostro, palma, tarjeta y contraseña – 6000 rostros, 3000 palmas y 10000 tarjetas.',
-      biotimeTitle: 'BioTime en la nube',
-      biotimeDescription: 'BioTime en la nube es una innovadora solución de tiempo y asistencia en la nube para impulsar el servicio de gestión de PYMES y servicios remotos sin necesidad de que usuario de asistencia en sitio.',
-      biosecurityTitle: 'ZKBio CVSecurity',
-      biosecurityDescription: 'Plataforma Inteligente Todo en Uno, integrando soluciones como: Personal, Tiempo y Asistencia, Control de Acceso, Gestión de Visitantes, Estacionamiento, Control de Ascensores, FaceKiosk, Gestión de Video, Detección de Máscara y Temperatura, Consumo en Línea/Fuera de Línea, Patrullaje, Análisis de Video Inteligente, Gestión de Casilleros, Alarma de Intrusión, Centro de Servicio y otro subsistema inteligente.',
-      operativaTitle: 'Capacitación Operativa',
-      operativaDescription: 'Explicación de registro de empleados, ausentismo, carga de maestros por archivo plano, configuración básica de reglas de asistencia por empleado, festivos, y todos los reportes de asistencia.',
-      administrativaTitle: 'Capacitación Administrativa',
-      administrativaDescription: 'Explicación de la parametrización de: empleados, maestros, conceptos de nómina, Turnos, reglas de asistencia, programación de turnos, ingreso de ausentismos, liquidación de nómina, reportes de asistencia y prenómina y exportación de archivo plano para integración con nómina.',
-      configTitle: 'Configuración de nómina',
-      configDescription: 'Configuración de reglas de asistencia, redondeos, plantilla para archivo plano, conceptos de nómina y ausentismos, periodos de liquidación y asignación de reglas de cálculo por turno.',
-      instalacionTitle: 'Instalación de servidor ',
-      instalacionDescription: 'Instalación de software, configuración base de datos, puertos ADMS, activación de licencia, pruebas de conexión.',
-      acompanamientoTitle: 'Acompañamiento Nómina',
-      acompanamientoDescription: 'Servicio de acompañamiento remoto en el proceso de liquidación de una quincena o mensualidad, para apoyar el proceso de liquidación y solucionar las dudas o inconvenientes que se presenten en el proceso.',
-      stuffTitle: 'Aumento del personal',
-      stuffDescription: 'Ofrecemos a nuestros clientes equipos de trabajo ágiles para desarrollar sus proyectos con las mejores tecnologías y prácticas de Desarrollo.',
-      stuffBaseDatos: "Bases de Datos",
-      stuffBack: "Back-End",
-      stuffFront: "Front-End",
-      stuffMovil: "Desarrollo Móvil",
-      stuffDevOps: "DevOps",
-      developTitle: 'Desarrollo de software a la medida en modelo ágil ',
-      developDescription: 'Contamos con el mejor equipo de desarrolladores de software en las diferentes tecnologías y administrados bajo el marco de metodologías ágiles SCRUM.',
-      legalTitle: 'Asesoría jurídica comercial',
-      legalDescription: 'Asesoría legal Creación y formalización de empresas, protección de derechos de propiedad intelectual, elaboración de contratos comerciales, conceptos jurídicos y en general consultoría jurídica con aplicación de herramientas de innovación legal que permiten un mejor entendimiento de los términos jurídicos, prevenir conflictos y brindar soluciones integrales diseñadas específicamente para las necesidades de nuestras clientes.',
-      comprar: "Comprar",
-      otrosProductos: "Otros productos"
-
+    populares: 'Populares',
+    dispositivos: 'Dispositivos',
+    licencias: 'Licencias',
+    capaciaciones: 'Capacitaciones',
+    desarrollo: 'Desarrollo de software',
+    juridica: 'Asesoría jurídica comercial',
+    mb10vlTitle: 'MB10-VL',
+    mb10vlDescription:
+      'Terminal híbrida de control de acceso y asistencia con reconocimiento facial de luz visible - 100 rostros, 500 huellas y 1000 tarjetas.',
+    v4lTitle: 'SPEEDFACE V4L',
+    v4lDescription:
+      'Dispositivo Biométrico con reconocimiento de rostro, palma y tarjeta sin contacto - 800 rostros y 800 palmas.',
+    tl1Title: 'HORUS TL1 - WIFI',
+    tl1Description:
+      'Terminal de tiempo y asistencia basado en Linux con Visible Light - 800 rostros.',
+    mb560vlTitle: 'MB560VL',
+    mb560vlDescription:
+      'Terminal de control de acceso y asistencia con reconocimiento facial – 3000 rostros y 3000 huellas.',
+    eface10Title: 'EFACE 10',
+    eface10Description:
+      'Terminal de reconocimiento facial sin contacto con Visible Light – 500 rostros y 1000 tarjetas.',
+    m4Title: 'SPEEDFACE M4',
+    m4Description:
+      'Protección contra polvo y chorros de agua, reconocimiento por rostro, palma, tarjeta y contraseña – 6000 rostros, 3000 palmas y 10000 tarjetas.',
+    biotimeTitle: 'BioTime en la nube',
+    biotimeDescription:
+      'BioTime en la nube es una innovadora solución de tiempo y asistencia en la nube para impulsar el servicio de gestión de PYMES y servicios remotos sin necesidad de que usuario de asistencia en sitio.',
+    biosecurityTitle: 'ZKBio CVSecurity',
+    biosecurityDescription:
+      'Plataforma Inteligente Todo en Uno, integrando soluciones como: Personal, Tiempo y Asistencia, Control de Acceso, Gestión de Visitantes, Estacionamiento, Control de Ascensores, FaceKiosk, Gestión de Video, Detección de Máscara y Temperatura, Consumo en Línea/Fuera de Línea, Patrullaje, Análisis de Video Inteligente, Gestión de Casilleros, Alarma de Intrusión, Centro de Servicio y otro subsistema inteligente.',
+    operativaTitle: 'Capacitación Operativa',
+    operativaDescription:
+      'Explicación de registro de empleados, ausentismo, carga de maestros por archivo plano, configuración básica de reglas de asistencia por empleado, festivos, y todos los reportes de asistencia.',
+    administrativaTitle: 'Capacitación Administrativa',
+    administrativaDescription:
+      'Explicación de la parametrización de: empleados, maestros, conceptos de nómina, Turnos, reglas de asistencia, programación de turnos, ingreso de ausentismos, liquidación de nómina, reportes de asistencia y prenómina y exportación de archivo plano para integración con nómina.',
+    configTitle: 'Configuración de nómina',
+    configDescription:
+      'Configuración de reglas de asistencia, redondeos, plantilla para archivo plano, conceptos de nómina y ausentismos, periodos de liquidación y asignación de reglas de cálculo por turno.',
+    instalacionTitle: 'Instalación de servidor ',
+    instalacionDescription:
+      'Instalación de software, configuración base de datos, puertos ADMS, activación de licencia, pruebas de conexión.',
+    acompanamientoTitle: 'Acompañamiento Nómina',
+    acompanamientoDescription:
+      'Servicio de acompañamiento remoto en el proceso de liquidación de una quincena o mensualidad, para apoyar el proceso de liquidación y solucionar las dudas o inconvenientes que se presenten en el proceso.',
+    stuffTitle: 'Aumento del personal',
+    stuffDescription:
+      'Ofrecemos a nuestros clientes equipos de trabajo ágiles para desarrollar sus proyectos con las mejores tecnologías y prácticas de Desarrollo.',
+    stuffBaseDatos: 'Bases de Datos',
+    stuffBack: 'Back-End',
+    stuffFront: 'Front-End',
+    stuffMovil: 'Desarrollo Móvil',
+    stuffDevOps: 'DevOps',
+    developTitle: 'Desarrollo de software a la medida en modelo ágil ',
+    developDescription:
+      'Contamos con el mejor equipo de desarrolladores de software en las diferentes tecnologías y administrados bajo el marco de metodologías ágiles SCRUM.',
+    legalTitle: 'Asesoría jurídica comercial',
+    legalDescription:
+      'Asesoría legal Creación y formalización de empresas, protección de derechos de propiedad intelectual, elaboración de contratos comerciales, conceptos jurídicos y en general consultoría jurídica con aplicación de herramientas de innovación legal que permiten un mejor entendimiento de los términos jurídicos, prevenir conflictos y brindar soluciones integrales diseñadas específicamente para las necesidades de nuestras clientes.',
+    comprar: 'Comprar',
+    otrosProductos: 'Otros productos',
+  },
+  landing: {
+    title: 'Juntos construimos productos digitales inspiradore',
+    subtitle:
+      'Desarrollo de software | Tecnología innovadora | Calidad Confiable | Servicio de extremo a extremo',
+    button: 'Reserve una llamada',
   },
 };
 
