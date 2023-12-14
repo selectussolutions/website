@@ -190,6 +190,66 @@ const en: Translation = {
     subtitle:
       'Software Development | Innovative Technology | Reliable Quality | End-to-End Service',
     button: 'Book a Call',
+
+    aboutUs: {
+      link: 'About Us',
+      title: 'Custom product & software development focused on your success',
+      text1: 'We are a team of software experts that works with small, medium, and large companies to build MVPs, enterprise-level applications, and augment teams.',
+      text2: 'Our mission is to help great companies build amazing agile teams to develop web- and mobile-based solutions with the best technologies and practices for back-end and front-end development.',
+      text3: 'Together we build inspiring digital products',
+      clients: 'Clients',
+      feedback: 'Positive Feedback',
+      brands: 'Popular Brands',
+    },
+
+    technologies: {
+      link: 'Technologies',
+      title: 'Technologies we work with',
+    },
+
+    services: {
+      link: 'Services',
+      title: 'Featured services',
+
+      agileTitle: 'Agile software development',
+      agileSubtitle: 'Experts in different back-end and front-end technologies, along with agile SCRUM methodologies.',
+
+      staffTitle: 'Staff augmentation',
+      staffSubtitle: 'We offer our customers all the profiles they need to develop their solutions.',
+
+      systemsTitle: 'Systems for the internal management of companies',
+      systemsSubtitle: 'Web software for time attendance, payroll, access control and personnel management.',
+
+      button: 'Book a Call',
+    },
+
+
+    testimonials: {
+      link: 'Testimonials',
+      title: 'What our clients say',
+
+      testimonial1: '"We contracted ZKTeco products since 2022 to improve our payroll process, without a doubt it has been an excellent decision: A continuous, personalized service with excellent response times."',
+      client1: 'Monica Cadavid',
+      jobTitle1: 'General Director of Processes | DAMASA Business Group',
+
+      testimonial2: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client2: 'YYYYY',
+      jobTitle2: 'ZZZZ',
+
+      testimonial3: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client3: 'YYYYY',
+      jobTitle3: 'ZZZZ'
+    },
+
+
+    idea: {      
+      title: 'Have an idea?',
+      subtitle: 'Lets make something together. Drop a line to us.',
+      button: 'LETS TALK',
+    },
+
+
+
   },
 };
 

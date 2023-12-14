@@ -525,6 +525,148 @@ type RootTranslation = {
 		 * B​o​o​k​ ​a​ ​C​a​l​l
 		 */
 		button: string
+		aboutUs: {
+			/**
+			 * A​b​o​u​t​ ​U​s
+			 */
+			link: string
+			/**
+			 * C​u​s​t​o​m​ ​p​r​o​d​u​c​t​ ​&​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​f​o​c​u​s​e​d​ ​o​n​ ​y​o​u​r​ ​s​u​c​c​e​s​s
+			 */
+			title: string
+			/**
+			 * W​e​ ​a​r​e​ ​a​ ​t​e​a​m​ ​o​f​ ​s​o​f​t​w​a​r​e​ ​e​x​p​e​r​t​s​ ​t​h​a​t​ ​w​o​r​k​s​ ​w​i​t​h​ ​s​m​a​l​l​,​ ​m​e​d​i​u​m​,​ ​a​n​d​ ​l​a​r​g​e​ ​c​o​m​p​a​n​i​e​s​ ​t​o​ ​b​u​i​l​d​ ​M​V​P​s​,​ ​e​n​t​e​r​p​r​i​s​e​-​l​e​v​e​l​ ​a​p​p​l​i​c​a​t​i​o​n​s​,​ ​a​n​d​ ​a​u​g​m​e​n​t​ ​t​e​a​m​s​.
+			 */
+			text1: string
+			/**
+			 * O​u​r​ ​m​i​s​s​i​o​n​ ​i​s​ ​t​o​ ​h​e​l​p​ ​g​r​e​a​t​ ​c​o​m​p​a​n​i​e​s​ ​b​u​i​l​d​ ​a​m​a​z​i​n​g​ ​a​g​i​l​e​ ​t​e​a​m​s​ ​t​o​ ​d​e​v​e​l​o​p​ ​w​e​b​-​ ​a​n​d​ ​m​o​b​i​l​e​-​b​a​s​e​d​ ​s​o​l​u​t​i​o​n​s​ ​w​i​t​h​ ​t​h​e​ ​b​e​s​t​ ​t​e​c​h​n​o​l​o​g​i​e​s​ ​a​n​d​ ​p​r​a​c​t​i​c​e​s​ ​f​o​r​ ​b​a​c​k​-​e​n​d​ ​a​n​d​ ​f​r​o​n​t​-​e​n​d​ ​d​e​v​e​l​o​p​m​e​n​t​.
+			 */
+			text2: string
+			/**
+			 * T​o​g​e​t​h​e​r​ ​w​e​ ​b​u​i​l​d​ ​i​n​s​p​i​r​i​n​g​ ​d​i​g​i​t​a​l​ ​p​r​o​d​u​c​t​s
+			 */
+			text3: string
+			/**
+			 * C​l​i​e​n​t​s
+			 */
+			clients: string
+			/**
+			 * P​o​s​i​t​i​v​e​ ​F​e​e​d​b​a​c​k
+			 */
+			feedback: string
+			/**
+			 * P​o​p​u​l​a​r​ ​B​r​a​n​d​s
+			 */
+			brands: string
+		}
+		technologies: {
+			/**
+			 * T​e​c​h​n​o​l​o​g​i​e​s
+			 */
+			link: string
+			/**
+			 * T​e​c​h​n​o​l​o​g​i​e​s​ ​w​e​ ​w​o​r​k​ ​w​i​t​h
+			 */
+			title: string
+		}
+		services: {
+			/**
+			 * S​e​r​v​i​c​e​s
+			 */
+			link: string
+			/**
+			 * F​e​a​t​u​r​e​d​ ​s​e​r​v​i​c​e​s
+			 */
+			title: string
+			/**
+			 * A​g​i​l​e​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t
+			 */
+			agileTitle: string
+			/**
+			 * E​x​p​e​r​t​s​ ​i​n​ ​d​i​f​f​e​r​e​n​t​ ​b​a​c​k​-​e​n​d​ ​a​n​d​ ​f​r​o​n​t​-​e​n​d​ ​t​e​c​h​n​o​l​o​g​i​e​s​,​ ​a​l​o​n​g​ ​w​i​t​h​ ​a​g​i​l​e​ ​S​C​R​U​M​ ​m​e​t​h​o​d​o​l​o​g​i​e​s​.
+			 */
+			agileSubtitle: string
+			/**
+			 * S​t​a​f​f​ ​a​u​g​m​e​n​t​a​t​i​o​n
+			 */
+			staffTitle: string
+			/**
+			 * W​e​ ​o​f​f​e​r​ ​o​u​r​ ​c​u​s​t​o​m​e​r​s​ ​a​l​l​ ​t​h​e​ ​p​r​o​f​i​l​e​s​ ​t​h​e​y​ ​n​e​e​d​ ​t​o​ ​d​e​v​e​l​o​p​ ​t​h​e​i​r​ ​s​o​l​u​t​i​o​n​s​.
+			 */
+			staffSubtitle: string
+			/**
+			 * S​y​s​t​e​m​s​ ​f​o​r​ ​t​h​e​ ​i​n​t​e​r​n​a​l​ ​m​a​n​a​g​e​m​e​n​t​ ​o​f​ ​c​o​m​p​a​n​i​e​s
+			 */
+			systemsTitle: string
+			/**
+			 * W​e​b​ ​s​o​f​t​w​a​r​e​ ​f​o​r​ ​t​i​m​e​ ​a​t​t​e​n​d​a​n​c​e​,​ ​p​a​y​r​o​l​l​,​ ​a​c​c​e​s​s​ ​c​o​n​t​r​o​l​ ​a​n​d​ ​p​e​r​s​o​n​n​e​l​ ​m​a​n​a​g​e​m​e​n​t​.
+			 */
+			systemsSubtitle: string
+			/**
+			 * B​o​o​k​ ​a​ ​C​a​l​l
+			 */
+			button: string
+		}
+		testimonials: {
+			/**
+			 * T​e​s​t​i​m​o​n​i​a​l​s
+			 */
+			link: string
+			/**
+			 * W​h​a​t​ ​o​u​r​ ​c​l​i​e​n​t​s​ ​s​a​y
+			 */
+			title: string
+			/**
+			 * "​W​e​ ​c​o​n​t​r​a​c​t​e​d​ ​Z​K​T​e​c​o​ ​p​r​o​d​u​c​t​s​ ​s​i​n​c​e​ ​2​0​2​2​ ​t​o​ ​i​m​p​r​o​v​e​ ​o​u​r​ ​p​a​y​r​o​l​l​ ​p​r​o​c​e​s​s​,​ ​w​i​t​h​o​u​t​ ​a​ ​d​o​u​b​t​ ​i​t​ ​h​a​s​ ​b​e​e​n​ ​a​n​ ​e​x​c​e​l​l​e​n​t​ ​d​e​c​i​s​i​o​n​:​ ​A​ ​c​o​n​t​i​n​u​o​u​s​,​ ​p​e​r​s​o​n​a​l​i​z​e​d​ ​s​e​r​v​i​c​e​ ​w​i​t​h​ ​e​x​c​e​l​l​e​n​t​ ​r​e​s​p​o​n​s​e​ ​t​i​m​e​s​.​"
+			 */
+			testimonial1: string
+			/**
+			 * M​o​n​i​c​a​ ​C​a​d​a​v​i​d
+			 */
+			client1: string
+			/**
+			 * G​e​n​e​r​a​l​ ​D​i​r​e​c​t​o​r​ ​o​f​ ​P​r​o​c​e​s​s​e​s​ ​|​ ​D​A​M​A​S​A​ ​B​u​s​i​n​e​s​s​ ​G​r​o​u​p
+			 */
+			jobTitle1: string
+			/**
+			 * "​ ​L​o​r​e​m​ ​i​p​s​u​m​ ​d​o​l​o​r​ ​s​i​t​ ​a​m​e​t​,​ ​c​o​n​s​e​c​t​e​t​u​r​ ​a​d​i​p​i​s​c​i​n​g​ ​e​l​i​t​.​ ​E​t​i​a​m​ ​l​o​r​e​m​ ​n​i​s​i​,​ ​c​o​m​m​o​d​o​ ​s​e​d​ ​m​a​l​e​s​u​a​d​a​ ​n​e​c​,​ ​c​o​m​m​o​d​o​ ​i​n​ ​o​d​i​o​.​ ​P​r​a​e​s​e​n​t​ ​s​e​d​ ​v​o​l​u​t​p​a​t​ ​u​r​n​a​.​ ​P​r​o​i​n​ ​e​u​ ​m​a​l​e​s​u​a​d​a​ ​v​e​l​i​t​.​ ​F​u​s​c​e​ ​i​n​ ​v​e​n​e​n​a​t​i​s​ ​e​n​i​m​,​ ​e​u​ ​p​u​l​v​i​n​a​r​ ​m​a​u​r​i​s​.​ ​"
+			 */
+			testimonial2: string
+			/**
+			 * Y​Y​Y​Y​Y
+			 */
+			client2: string
+			/**
+			 * Z​Z​Z​Z
+			 */
+			jobTitle2: string
+			/**
+			 * "​ ​L​o​r​e​m​ ​i​p​s​u​m​ ​d​o​l​o​r​ ​s​i​t​ ​a​m​e​t​,​ ​c​o​n​s​e​c​t​e​t​u​r​ ​a​d​i​p​i​s​c​i​n​g​ ​e​l​i​t​.​ ​E​t​i​a​m​ ​l​o​r​e​m​ ​n​i​s​i​,​ ​c​o​m​m​o​d​o​ ​s​e​d​ ​m​a​l​e​s​u​a​d​a​ ​n​e​c​,​ ​c​o​m​m​o​d​o​ ​i​n​ ​o​d​i​o​.​ ​P​r​a​e​s​e​n​t​ ​s​e​d​ ​v​o​l​u​t​p​a​t​ ​u​r​n​a​.​ ​P​r​o​i​n​ ​e​u​ ​m​a​l​e​s​u​a​d​a​ ​v​e​l​i​t​.​ ​F​u​s​c​e​ ​i​n​ ​v​e​n​e​n​a​t​i​s​ ​e​n​i​m​,​ ​e​u​ ​p​u​l​v​i​n​a​r​ ​m​a​u​r​i​s​.​ ​"
+			 */
+			testimonial3: string
+			/**
+			 * Y​Y​Y​Y​Y
+			 */
+			client3: string
+			/**
+			 * Z​Z​Z​Z
+			 */
+			jobTitle3: string
+		}
+		idea: {
+			/**
+			 * H​a​v​e​ ​a​n​ ​i​d​e​a​?
+			 */
+			title: string
+			/**
+			 * L​e​t​s​ ​m​a​k​e​ ​s​o​m​e​t​h​i​n​g​ ​t​o​g​e​t​h​e​r​.​ ​D​r​o​p​ ​a​ ​l​i​n​e​ ​t​o​ ​u​s​.
+			 */
+			subtitle: string
+			/**
+			 * L​E​T​S​ ​T​A​L​K
+			 */
+			button: string
+		}
 	}
 }
 
@@ -1040,6 +1182,148 @@ export type TranslationFunctions = {
 		 * Book a Call
 		 */
 		button: () => LocalizedString
+		aboutUs: {
+			/**
+			 * About Us
+			 */
+			link: () => LocalizedString
+			/**
+			 * Custom product & software development focused on your success
+			 */
+			title: () => LocalizedString
+			/**
+			 * We are a team of software experts that works with small, medium, and large companies to build MVPs, enterprise-level applications, and augment teams.
+			 */
+			text1: () => LocalizedString
+			/**
+			 * Our mission is to help great companies build amazing agile teams to develop web- and mobile-based solutions with the best technologies and practices for back-end and front-end development.
+			 */
+			text2: () => LocalizedString
+			/**
+			 * Together we build inspiring digital products
+			 */
+			text3: () => LocalizedString
+			/**
+			 * Clients
+			 */
+			clients: () => LocalizedString
+			/**
+			 * Positive Feedback
+			 */
+			feedback: () => LocalizedString
+			/**
+			 * Popular Brands
+			 */
+			brands: () => LocalizedString
+		}
+		technologies: {
+			/**
+			 * Technologies
+			 */
+			link: () => LocalizedString
+			/**
+			 * Technologies we work with
+			 */
+			title: () => LocalizedString
+		}
+		services: {
+			/**
+			 * Services
+			 */
+			link: () => LocalizedString
+			/**
+			 * Featured services
+			 */
+			title: () => LocalizedString
+			/**
+			 * Agile software development
+			 */
+			agileTitle: () => LocalizedString
+			/**
+			 * Experts in different back-end and front-end technologies, along with agile SCRUM methodologies.
+			 */
+			agileSubtitle: () => LocalizedString
+			/**
+			 * Staff augmentation
+			 */
+			staffTitle: () => LocalizedString
+			/**
+			 * We offer our customers all the profiles they need to develop their solutions.
+			 */
+			staffSubtitle: () => LocalizedString
+			/**
+			 * Systems for the internal management of companies
+			 */
+			systemsTitle: () => LocalizedString
+			/**
+			 * Web software for time attendance, payroll, access control and personnel management.
+			 */
+			systemsSubtitle: () => LocalizedString
+			/**
+			 * Book a Call
+			 */
+			button: () => LocalizedString
+		}
+		testimonials: {
+			/**
+			 * Testimonials
+			 */
+			link: () => LocalizedString
+			/**
+			 * What our clients say
+			 */
+			title: () => LocalizedString
+			/**
+			 * "We contracted ZKTeco products since 2022 to improve our payroll process, without a doubt it has been an excellent decision: A continuous, personalized service with excellent response times."
+			 */
+			testimonial1: () => LocalizedString
+			/**
+			 * Monica Cadavid
+			 */
+			client1: () => LocalizedString
+			/**
+			 * General Director of Processes | DAMASA Business Group
+			 */
+			jobTitle1: () => LocalizedString
+			/**
+			 * " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "
+			 */
+			testimonial2: () => LocalizedString
+			/**
+			 * YYYYY
+			 */
+			client2: () => LocalizedString
+			/**
+			 * ZZZZ
+			 */
+			jobTitle2: () => LocalizedString
+			/**
+			 * " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "
+			 */
+			testimonial3: () => LocalizedString
+			/**
+			 * YYYYY
+			 */
+			client3: () => LocalizedString
+			/**
+			 * ZZZZ
+			 */
+			jobTitle3: () => LocalizedString
+		}
+		idea: {
+			/**
+			 * Have an idea?
+			 */
+			title: () => LocalizedString
+			/**
+			 * Lets make something together. Drop a line to us.
+			 */
+			subtitle: () => LocalizedString
+			/**
+			 * LETS TALK
+			 */
+			button: () => LocalizedString
+		}
 	}
 }
 

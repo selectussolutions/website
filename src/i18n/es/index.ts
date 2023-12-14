@@ -190,10 +190,70 @@ const es: BaseTranslation = {
     otrosProductos: 'Otros productos',
   },
   landing: {
-    title: 'Juntos construimos productos digitales inspiradore',
+    title: 'Juntos construimos productos digitales inspiradores',
     subtitle:
-      'Desarrollo de software | Tecnología innovadora | Calidad Confiable | Servicio de extremo a extremo',
-    button: 'Reserve una llamada',
+      'Desarrollo de Software | Tecnología innovadora | Calidad confiable | Servicio de extremo a extremo',
+    button: 'Agenda una llamada',
+
+    aboutUs: {
+      link: 'Sobre nosotros',
+      title: 'Desarrollo de software y productos personalizados centrado en su éxito',
+      text1: 'Somos un equipo de expertos en software que trabaja con pequeñas, medianas y grandes empresas para crear MVP, aplicaciones de nivel empresarial y aumentar equipos.',
+      text2: 'Nuestra misión es ayudar a grandes empresas a crear equipos ágiles increíbles para desarrollar soluciones basadas en web y dispositivos móviles con las mejores tecnologías y prácticas para el desarrollo back-end y front-end.',
+      text3: 'Juntos construimos productos digitales inspiradores',
+      clients: 'Clientes',
+      feedback: 'Comentarios positivos',
+      brands: 'Marcas populares',
+    },
+
+    technologies: {
+      link: 'Tecnologías',
+      title: 'Tecnologías con las que trabajamos',
+    },
+
+    services: {
+      link: 'Servicios',
+      title: 'Servicios destacados',
+
+      agileTitle: 'Desarrollo de software ágil',
+      agileSubtitle: 'Expertos en diferentes tecnologías back-end y front-end, junto con metodologías ágiles SCRUM.',
+
+      staffTitle: 'Aumento de personal',
+      staffSubtitle: 'Ofrecemos a nuestros clientes todos los perfiles que necesitan para desarrollar sus soluciones.',
+
+      systemsTitle: 'Sistemas para la gestión interna de las empresas',
+      systemsSubtitle: 'Software web para asistencia, nóminas, control de acceso y gestión de personal.',
+
+      button: 'Agenda una llamada',
+    },
+
+
+    testimonials: {
+      link: 'Testimonios',
+      title: 'Lo que dicen nuestros clientes',
+
+      testimonial1: '"Contratamos productos ZKTeco desde 2022 para mejorar nuestro proceso de nómina, sin duda ha sido una excelente decisión: Un servicio continuo, personalizado y con excelentes tiempos de respuesta."',
+      client1: 'Monica Cadavid',
+      jobTitle1: 'Director General de Procesos | Grupo Empresarial DAMASA',
+
+      testimonial2: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client2: 'YYYYY',
+      jobTitle2: 'ZZZZ',
+
+      testimonial3: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client3: 'YYYYY',
+      jobTitle3: 'ZZZZ'
+    },
+
+
+    idea: {      
+      title: '¿Tienes una idea?',
+      subtitle: 'Hagamos algo juntos. Escríbenos.',
+      button: 'HABLEMOS',
+    },
+
+
+
   },
 };
 
