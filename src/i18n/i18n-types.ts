@@ -558,6 +558,18 @@ type RootTranslation = {
 			 * P​o​p​u​l​a​r​ ​B​r​a​n​d​s
 			 */
 			brands: string
+			/**
+			 * +​ ​3​M
+			 */
+			clientsCount: string
+			/**
+			 * 9​0​%
+			 */
+			starCount: string
+			/**
+			 * +​ ​2​0​0
+			 */
+			diamondCount: string
 		}
 		technologies: {
 			/**
@@ -1215,6 +1227,18 @@ export type TranslationFunctions = {
 			 * Popular Brands
 			 */
 			brands: () => LocalizedString
+			/**
+			 * + 3M
+			 */
+			clientsCount: () => LocalizedString
+			/**
+			 * 90%
+			 */
+			starCount: () => LocalizedString
+			/**
+			 * + 200
+			 */
+			diamondCount: () => LocalizedString
 		}
 		technologies: {
 			/**
