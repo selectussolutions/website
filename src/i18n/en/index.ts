@@ -202,9 +202,9 @@ const en: Translation = {
       clients: 'Clients',
       feedback: 'Positive Feedback',
       brands: 'Popular Brands',
-      clientsCount: '+ 3M',
+      clientsCount: '+ 100',
       starCount: '90%',
-      diamondCount: '+ 200',
+      diamondCount: '+ 20',
     },
 
     technologies: {

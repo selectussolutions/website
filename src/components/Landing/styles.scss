@@ -54,7 +54,7 @@ button {
   padding-top: 25px;
 }
 
-.select-locale {
+.select-locale-landing {
   background: $darkBlue;
   border: none;
   color: $white;
@@ -143,6 +143,7 @@ button {
   display: FLEX;
   align-items: center;
   justify-content: space-evenly;
+  margin: 5px;;
   width: 400px;
   height: 148px;
   flex-shrink: 0;
@@ -887,6 +888,8 @@ button {
 @media (max-width: 991px) {
   .column-2-footer {
     width: 100%;
+    align-items: center;
+    padding: 10px;
   }
 }
 
@@ -1059,3 +1062,41 @@ button {
   align-items: center;
   height: 77px;
 }
+
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-right: 16px;
+  }
+}
+
+
+
+
+
+@media only screen 
+and (min-width : 1224px) {
+  .holder {   
+    width: auto;
+    display: inline-block;    
+  }
+  
+  .holder img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .holder img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+
+

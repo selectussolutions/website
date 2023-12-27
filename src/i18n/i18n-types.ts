@@ -559,7 +559,7 @@ type RootTranslation = {
 			 */
 			brands: string
 			/**
-			 * +​ ​3​M
+			 * +​ ​1​0​0
 			 */
 			clientsCount: string
 			/**
@@ -567,7 +567,7 @@ type RootTranslation = {
 			 */
 			starCount: string
 			/**
-			 * +​ ​2​0​0
+			 * +​ ​2​0
 			 */
 			diamondCount: string
 		}
@@ -1228,7 +1228,7 @@ export type TranslationFunctions = {
 			 */
 			brands: () => LocalizedString
 			/**
-			 * + 3M
+			 * + 100
 			 */
 			clientsCount: () => LocalizedString
 			/**
@@ -1236,7 +1236,7 @@ export type TranslationFunctions = {
 			 */
 			starCount: () => LocalizedString
 			/**
-			 * + 200
+			 * + 20
 			 */
 			diamondCount: () => LocalizedString
 		}

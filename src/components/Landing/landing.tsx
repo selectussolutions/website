@@ -64,7 +64,7 @@ const Landing = (): ReactElement => {
             <select
               value={locale || ''}
               onChange={onLocaleSelected}
-              className='select-locale'
+              className='select-locale-landing'
             >
               <option value='' disabled></option>
               {locales.map(locale => (
@@ -81,7 +81,7 @@ const Landing = (): ReactElement => {
             <h2>{LL.landing.subtitle()}</h2>
             <button
               className='button'
-              onClick={() => (window.location.href = '/contacto')}
+              onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
             >
               {LL.landing.button()}
             </button>
@@ -173,6 +173,16 @@ const Landing = (): ReactElement => {
                     {...a11yProps(2)}
                     className='tab-item'
                   />
+                  <Tab
+                    label='Database'
+                    {...a11yProps(3)}
+                    className='tab-item'
+                  />
+                  <Tab
+                    label='DevOps'
+                    {...a11yProps(4)}
+                    className='tab-item'
+                  />
                 </Tabs>
               </Box>
               <CustomTabPanel value={value} index={0}>
@@ -190,10 +200,59 @@ const Landing = (): ReactElement => {
                 </div>
               </CustomTabPanel>
               <CustomTabPanel value={value} index={1}>
-                Item Two
+                <div className='icons holder'>
+                  <img
+                    src='/static/images/icons/angular.png'
+                    alt='landing'
+                  ></img>
+                  <img src='/static/images/icons/html.png' alt='landing'></img>
+                  <img src='/static/images/icons/node.png' alt='landing'></img>
+                  <img
+                    src='/static/images/icons/react.png'
+                    alt='landing'
+                  ></img>
+                </div>
               </CustomTabPanel>
               <CustomTabPanel value={value} index={2}>
-                Item Three
+                <div className='icons holder'>
+                  <img
+                    src='/static/images/icons/java.png'
+                    alt='landing'
+
+                  ></img>
+                  <img src='/static/images/icons/net.png' alt='landing'></img>
+                  <img src='/static/images/icons/c.png' className='px-5' alt='landing'></img>
+                  <img src='/static/images/icons/django.png' alt='landing'></img>
+                </div>
+              </CustomTabPanel>
+              <CustomTabPanel value={value} index={3}>
+                <div className='icons holder'>
+                  <img
+                    src='/static/images/icons/sql.png'
+                    alt='landing'
+                  ></img>
+                  <img src='/static/images/icons/mysql.png' alt='landing'></img>
+                  <img
+                    src='/static/images/icons/postgresql.png'
+                    alt='landing'
+                  ></img>
+                  <img src='/static/images/icons/azure.png' alt='landing'></img>
+                </div>
+              </CustomTabPanel>
+
+              <CustomTabPanel value={value} index={4}>
+                <div className='icons holder'>
+                  <img
+                    src='/static/images/icons/angular.png'
+                    alt='landing'
+                  ></img>
+                  <img src='/static/images/icons/html.png' alt='landing'></img>
+                  <img src='/static/images/icons/node.png' alt='landing'></img>
+                  <img
+                    src='/static/images/icons/react.png'
+                    alt='landing'
+                  ></img>
+                </div>
               </CustomTabPanel>
             </div>
           </div>
@@ -203,7 +262,7 @@ const Landing = (): ReactElement => {
       <div className='div-services'>
         <div className='div-2-services'>
           <div className='row'>
-            <a href='/nosotros' className='link'>
+            <a href='/servicios' className='link'>
               {LL.landing.services.link()}
             </a>
           </div>
@@ -216,14 +275,15 @@ const Landing = (): ReactElement => {
               <div className='div-8-services'>
                 {LL.landing.services.agileSubtitle()}
               </div>
+
               <img
                 loading='lazy'
-                srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4df141c6280023eb8f0ef2d7e105e08e50928ce5f35256cdc6929f32da8ccaed?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                src='/static/images/landing-cel.png'
                 className='img-2'
               />
               <img
                 loading='lazy'
-                srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/32f3a3deea51dde85d8fb20f971ad570c4aa9a7b3516b51b6a8bcb688be10309?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                src='/static/images/landing-pc.png'
                 className='img-3'
               />
             </div>
@@ -248,7 +308,7 @@ const Landing = (): ReactElement => {
                   <div className='column-2-services'>
                     <img
                       loading='lazy'
-                      srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5815ffd6220a8b1c63b714d12686caf4c9c98d9b0a55fc82050cf2ea690628f?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                      src='/static/images/landing-staff.png'
                       className='img-5-services'
                     />
                   </div>
@@ -271,14 +331,14 @@ const Landing = (): ReactElement => {
                     <div className='column-3-services'>
                       <img
                         loading='lazy'
-                        srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/df254c01a48bd97c7118bbfb4ba448d9060cc616d90159961b0451ef3eb84573?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                        src='/static/images/landing-it-worker.png'
                         className='img-7-services'
                       />
                     </div>
                     <div className='column-4-services'>
                       <img
                         loading='lazy'
-                        srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/28d42ede2356fb2b9d09cb33d8fb41845c3785b4abbe19f82ad3935922c3548d?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                        src='/static/images/company-employees.png'
                         className='img-8-services'
                       />
                     </div>
@@ -292,7 +352,7 @@ const Landing = (): ReactElement => {
             {' '}
             <button
               className='button'
-              onClick={() => (window.location.href = '/contacto')}
+              onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
             >
               {LL.landing.services.button()}
             </button>
@@ -328,14 +388,14 @@ const Landing = (): ReactElement => {
             <div className='column-2-testimonials'>
               <img
                 loading='lazy'
-                srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/21d4b627f7930f9471f41049d2a271fa1a2b673eb8dbd0768c819d4d49ea55e6?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                src='/static/images/landing-clien1.png'
                 className='img-testimonials'
               />
             </div>
             <div className='column-3-testimonials'>
               <img
                 loading='lazy'
-                srcSet='https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/77f09bbd65db82bce3439d6ef881fe1f30e83038410ef364de4af9a853c0ef9c?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+                src='/static/images/landing-clien2.png'
                 className='img-2-testimonials'
               />
             </div>
@@ -355,7 +415,7 @@ const Landing = (): ReactElement => {
             <div className='column-2-footer'>
               <button
                 className='button'
-                onClick={() => (window.location.href = '/contacto')}
+                onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
               >
                 {LL.landing.idea.button()}
               </button>
@@ -366,11 +426,47 @@ const Landing = (): ReactElement => {
           <div className='div-9-footer'>
             <img
               loading='lazy'
-              src='https://cdn.builder.io/api/v1/image/assets/TEMP/eb370440f459bd92d09e74713e2265032a55d89a090ee8e31c29349352e59158?apiKey=01d115c955404390bf34c116e3ccb7a1&'
+              src='/static/images/backgroundFooter.png'
               className='img-footer'
             />{' '}
             <div className='div-10-footer'>
-              <img
+
+
+              <div className='footer-icons'>
+                <a
+                  href='https://facebook.com/selectussolutions'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    src='/static/images/icons/facebook_color.png'
+                    alt='Facebook'
+                  />
+                </a>
+                <a
+                  href='https://www.linkedin.com/company/selectussolutions/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    src='/static/images/icons/linkedin_color.png'
+                    alt='LinkedIn'
+                  />
+                </a>
+                <a
+                  href='https://wa.me/573138138754?text=Hola,%20Select%20Us!%20'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img
+                    src='/static/images/icons/whatsapp_color.png'
+                    alt='whatsapp'
+                  />
+                </a>
+              </div>
+
+
+              {/* <img
                 loading='lazy'
                 src='https://cdn.builder.io/api/v1/image/assets/TEMP/738491bb68b7ad7b8c7415a8e3cedfe5add3802fbf2ec79569a295c9d3d80ea4?apiKey=01d115c955404390bf34c116e3ccb7a1&'
                 className='img-2-footer'
@@ -379,17 +475,39 @@ const Landing = (): ReactElement => {
                 loading='lazy'
                 src='https://cdn.builder.io/api/v1/image/assets/TEMP/5b42af1dd79566102a250f6aa6a55b12f4d0f2160a2b9b3e7e2b017d55217ca9?apiKey=01d115c955404390bf34c116e3ccb7a1&'
                 className='img-3-footer'
-              />{' '}
+              />{' '} */}
+
+
             </div>
+
+
             <div className='whats-app-image-container'>
               <div className='div-11-footer'>
                 Select* US Solutions Copyright
               </div>
-              <img
-                loading='lazy'
-                src='https://cdn.builder.io/api/v1/image/assets/TEMP/904ebcdadbe94f8f1cc8952eba29d8ec9a917d7047868a745c6f76eeb8dffaf4?apiKey=01d115c955404390bf34c116e3ccb7a1&'
-                className='img-4-footer'
-              />
+
+              {/* <a
+                  href='https://wa.me/573138138754?text=Hola,%20Select%20Us!%20'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  
+                  <img
+                    src='/static/images/wpp.png'
+                    alt='whatsapp'
+                  />
+                </a> */}
+
+
+
+                {/* <img
+                  loading='lazy'
+                  src='/static/images/wpp.png'
+                  className='img-4-footer'
+                  onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
+                /> */}
+
+
             </div>
           </div>
         </div>

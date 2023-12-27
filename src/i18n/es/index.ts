@@ -204,6 +204,9 @@ const es: BaseTranslation = {
       clients: 'Clientes',
       feedback: 'Comentarios positivos',
       brands: 'Marcas populares',
+      clientsCount: '+ 100',
+      starCount: '90%',
+      diamondCount: '+ 20',
     },
 
     technologies: {
