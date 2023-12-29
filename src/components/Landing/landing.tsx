@@ -272,7 +272,7 @@ const Landing = (): ReactElement => {
               <div className='div-7-services'>
                 {LL.landing.services.agileTitle()}
               </div>
-              <div className='div-8-services'>
+              <div className='div-8-services'>                
                 {LL.landing.services.agileSubtitle()}
               </div>
 
@@ -386,17 +386,17 @@ const Landing = (): ReactElement => {
               </div>
             </div>
             <div className='column-2-testimonials'>
-              <img
-                loading='lazy'
-                src='/static/images/landing-clien1.png'
-                className='img-testimonials'
-              />
+
+            <video className='img-testimonials' controls>
+              <source src="/static/images/video-damasa.mp4" type="video/mp4"/>
+            </video>
+
             </div>
             <div className='column-3-testimonials'>
               <img
                 loading='lazy'
-                src='/static/images/landing-clien2.png'
-                className='img-2-testimonials'
+                src='/static/images/landing-clien2.jpg'
+                className='img-2-testimonials d-none d-sm-block'
               />
             </div>
           </div>
