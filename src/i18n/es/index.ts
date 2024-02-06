@@ -265,7 +265,8 @@ const es: BaseTranslation = {
     button: 'Agenda una llamada',
 
     productos: {
-      title: 'Productos destacados'
+      title: 'Productos destacados',
+      buy: 'Comprar'
     },
 
     aboutUs: {

@@ -1109,4 +1109,23 @@ and (min-width : 1224px) {
 }
 
 
+.f-50{
+  font-size: 50px !important;
+}
 
+.card-1{
+  color: black;
+}
+
+
+.box {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}

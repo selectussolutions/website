@@ -682,7 +682,7 @@ type RootTranslation = {
 	}
 	landingBiometricos: {
 		/**
-		 * P​O​D​E​R​O​S​A​ ​S​O​L​U​C​I​Ó​N​ ​D​E​ ​T​I​E​M​P​O​ ​Y​ ​A​S​I​S​T​E​N​C​I​A
+		 * S​O​L​U​C​I​Ó​N​ ​D​E​ ​T​I​E​M​P​O​ ​Y​ ​A​S​I​S​T​E​N​C​I​A
 		 */
 		title: string
 		/**
@@ -744,6 +744,10 @@ type RootTranslation = {
 			 * P​r​o​d​u​c​t​o​s​ ​d​e​s​t​a​c​a​d​o​s
 			 */
 			title: string
+			/**
+			 * B​u​y
+			 */
+			buy: string
 		}
 		testimonials: {
 			/**
@@ -1477,7 +1481,7 @@ export type TranslationFunctions = {
 	}
 	landingBiometricos: {
 		/**
-		 * PODEROSA SOLUCIÓN DE TIEMPO Y ASISTENCIA
+		 * SOLUCIÓN DE TIEMPO Y ASISTENCIA
 		 */
 		title: () => LocalizedString
 		/**
@@ -1539,6 +1543,10 @@ export type TranslationFunctions = {
 			 * Productos destacados
 			 */
 			title: () => LocalizedString
+			/**
+			 * Buy
+			 */
+			buy: () => LocalizedString
 		}
 		testimonials: {
 			/**

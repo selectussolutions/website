@@ -81,7 +81,7 @@ const LandingBiometricos = (): ReactElement => {
         </div>
         <div className='landing-content'>
           <div className='landing-text'>
-            <h1>{LL.landingBiometricos.title()}</h1>
+            <h1 className='f-50'>{LL.landingBiometricos.title()}</h1>
             <h2>{LL.landingBiometricos.subtitle()}</h2>
             <button
               className='button'
@@ -122,10 +122,10 @@ const LandingBiometricos = (): ReactElement => {
               <CustomTabPanel value={value} index={0}>
 
                 <div className='icons'>
-                  <img src='/static/images/products/MB10VL.png' className='img-dispositivo-2' alt='landing'></img>
-                  <img src='/static/images/products/M4.png' className='img-dispositivo' alt='landing'></img>
-                  <img src='/static/images/products/MB560VL.png' className='img-dispositivo' alt='landing'></img>
-                  <img src='/static/images/products/EFACE10.png' className='img-dispositivo' alt='landing'></img>
+                  <img src='/static/images/products/MB10VL.png' className='img-dispositivo-2' title='MB10-VL' ></img>
+                  <img src='/static/images/products/M4.png' className='img-dispositivo' title='SPEEDFACE M4'></img>
+                  <img src='/static/images/products/MB560VL.png' className='img-dispositivo' title='MB560-VL'></img>
+                  <img src='/static/images/products/EFACE10.png' className='img-dispositivo' title='EFACE10'></img>
                 </div>
 
               </CustomTabPanel>
@@ -133,14 +133,31 @@ const LandingBiometricos = (): ReactElement => {
 
                 <div>
                   <img src='/static/images/products/biotime.png' className='m-5' alt='landing'></img>
-                  <img src='/static/images/ZKBioSecurity1.png'  className='m-5' alt='landing'></img>
+                  <img src='/static/images/ZKBioSecurity1.png' className='m-5' alt='landing'></img>
                 </div>
               </CustomTabPanel>
+
+
+              <div className='box'>
+                <button
+                  className='button'
+                  onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
+                >
+                  {LL.landingBiometricos.productos.buy()}
+                </button>
+
+              </div>
+
+
 
             </div>
           </div>
         </div>
+
       </div>
+
+
+
 
 
 

@@ -258,7 +258,7 @@ const en: Translation = {
     },
   },
   landingBiometricos: {
-    title: 'PODEROSA SOLUCIÓN DE TIEMPO Y ASISTENCIA',
+    title: 'SOLUCIÓN DE TIEMPO Y ASISTENCIA',
     subtitle:
       'Sistema Web Centralizado para Gestión de Tiempo y Asistencia y Cálculo de Novedades de Pre-Nómina.',
     button: 'Agenda una llamada',
@@ -278,7 +278,8 @@ const en: Translation = {
     },
 
     productos: {
-      title: 'Productos destacados'
+      title: 'Productos destacados',
+      buy: 'Buy'
     },
 
     testimonials: {
