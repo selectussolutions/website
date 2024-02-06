@@ -11,6 +11,7 @@ import { Servicios } from './components/Servicios';
 import { Contacto } from './components/Contacto';
 import { Productos } from './components/Productos';
 import { Landing } from './components/Landing';
+import { LandingBiometricos } from './components/landing-biometricos';
 
 const detectedLocale = detectLocale(localStorageDetector);
 
@@ -32,7 +33,8 @@ const App = () => {
           <Route path='servicios' element={<Servicios />} />
           <Route path='contacto' element={<Contacto />} />
           <Route path='productos' element={<Productos />} />
-          <Route path='campaign' element={<Landing />} />
+          <Route path='landing-dev' element={<Landing />} />
+          <Route path='landing-biometricos' element={<LandingBiometricos />} />
         </Routes>
       </BrowserRouter>
     </TypesafeI18n>
