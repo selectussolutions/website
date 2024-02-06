@@ -680,6 +680,132 @@ type RootTranslation = {
 			button: string
 		}
 	}
+	landingBiometricos: {
+		/**
+		 * P​O​D​E​R​O​S​A​ ​S​O​L​U​C​I​Ó​N​ ​D​E​ ​T​I​E​M​P​O​ ​Y​ ​A​S​I​S​T​E​N​C​I​A
+		 */
+		title: string
+		/**
+		 * S​i​s​t​e​m​a​ ​W​e​b​ ​C​e​n​t​r​a​l​i​z​a​d​o​ ​p​a​r​a​ ​G​e​s​t​i​ó​n​ ​d​e​ ​T​i​e​m​p​o​ ​y​ ​A​s​i​s​t​e​n​c​i​a​ ​y​ ​C​á​l​c​u​l​o​ ​d​e​ ​N​o​v​e​d​a​d​e​s​ ​d​e​ ​P​r​e​-​N​ó​m​i​n​a​.
+		 */
+		subtitle: string
+		/**
+		 * A​g​e​n​d​a​ ​u​n​a​ ​l​l​a​m​a​d​a
+		 */
+		button: string
+		aboutUs: {
+			/**
+			 * S​o​b​r​e​ ​n​o​s​o​t​r​o​s
+			 */
+			link: string
+			/**
+			 * D​e​s​a​r​r​o​l​l​o​ ​d​e​ ​s​o​f​t​w​a​r​e​ ​y​ ​p​r​o​d​u​c​t​o​s​ ​p​e​r​s​o​n​a​l​i​z​a​d​o​s​ ​c​e​n​t​r​a​d​o​ ​e​n​ ​s​u​ ​é​x​i​t​o
+			 */
+			title: string
+			/**
+			 * S​o​m​o​s​ ​u​n​ ​e​q​u​i​p​o​ ​d​e​ ​e​x​p​e​r​t​o​s​ ​e​n​ ​s​o​f​t​w​a​r​e​ ​q​u​e​ ​t​r​a​b​a​j​a​ ​c​o​n​ ​p​e​q​u​e​ñ​a​s​,​ ​m​e​d​i​a​n​a​s​ ​y​ ​g​r​a​n​d​e​s​ ​e​m​p​r​e​s​a​s​ ​p​a​r​a​ ​c​r​e​a​r​ ​M​V​P​,​ ​a​p​l​i​c​a​c​i​o​n​e​s​ ​d​e​ ​n​i​v​e​l​ ​e​m​p​r​e​s​a​r​i​a​l​ ​y​ ​a​u​m​e​n​t​a​r​ ​e​q​u​i​p​o​s​.
+			 */
+			text1: string
+			/**
+			 * N​u​e​s​t​r​a​ ​m​i​s​i​ó​n​ ​e​s​ ​a​y​u​d​a​r​ ​a​ ​g​r​a​n​d​e​s​ ​e​m​p​r​e​s​a​s​ ​a​ ​c​r​e​a​r​ ​e​q​u​i​p​o​s​ ​á​g​i​l​e​s​ ​i​n​c​r​e​í​b​l​e​s​ ​p​a​r​a​ ​d​e​s​a​r​r​o​l​l​a​r​ ​s​o​l​u​c​i​o​n​e​s​ ​b​a​s​a​d​a​s​ ​e​n​ ​w​e​b​ ​y​ ​d​i​s​p​o​s​i​t​i​v​o​s​ ​m​ó​v​i​l​e​s​ ​c​o​n​ ​l​a​s​ ​m​e​j​o​r​e​s​ ​t​e​c​n​o​l​o​g​í​a​s​ ​y​ ​p​r​á​c​t​i​c​a​s​ ​p​a​r​a​ ​e​l​ ​d​e​s​a​r​r​o​l​l​o​ ​b​a​c​k​-​e​n​d​ ​y​ ​f​r​o​n​t​-​e​n​d​.
+			 */
+			text2: string
+			/**
+			 * J​u​n​t​o​s​ ​c​o​n​s​t​r​u​i​m​o​s​ ​p​r​o​d​u​c​t​o​s​ ​d​i​g​i​t​a​l​e​s​ ​i​n​s​p​i​r​a​d​o​r​e​s
+			 */
+			text3: string
+			/**
+			 * C​l​i​e​n​t​e​s
+			 */
+			clients: string
+			/**
+			 * C​o​m​e​n​t​a​r​i​o​s​ ​p​o​s​i​t​i​v​o​s
+			 */
+			feedback: string
+			/**
+			 * M​a​r​c​a​s​ ​p​o​p​u​l​a​r​e​s
+			 */
+			brands: string
+			/**
+			 * +​ ​1​0​0
+			 */
+			clientsCount: string
+			/**
+			 * 9​0​%
+			 */
+			starCount: string
+			/**
+			 * +​ ​2​0
+			 */
+			diamondCount: string
+		}
+		productos: {
+			/**
+			 * P​r​o​d​u​c​t​o​s​ ​d​e​s​t​a​c​a​d​o​s
+			 */
+			title: string
+		}
+		testimonials: {
+			/**
+			 * T​e​s​t​i​m​o​n​i​o​s
+			 */
+			link: string
+			/**
+			 * L​o​ ​q​u​e​ ​d​i​c​e​n​ ​n​u​e​s​t​r​o​s​ ​c​l​i​e​n​t​e​s
+			 */
+			title: string
+			/**
+			 * "​C​o​n​t​r​a​t​a​m​o​s​ ​p​r​o​d​u​c​t​o​s​ ​Z​K​T​e​c​o​ ​d​e​s​d​e​ ​2​0​2​2​ ​p​a​r​a​ ​m​e​j​o​r​a​r​ ​n​u​e​s​t​r​o​ ​p​r​o​c​e​s​o​ ​d​e​ ​n​ó​m​i​n​a​,​ ​s​i​n​ ​d​u​d​a​ ​h​a​ ​s​i​d​o​ ​u​n​a​ ​e​x​c​e​l​e​n​t​e​ ​d​e​c​i​s​i​ó​n​:​ ​U​n​ ​s​e​r​v​i​c​i​o​ ​c​o​n​t​i​n​u​o​,​ ​p​e​r​s​o​n​a​l​i​z​a​d​o​ ​y​ ​c​o​n​ ​e​x​c​e​l​e​n​t​e​s​ ​t​i​e​m​p​o​s​ ​d​e​ ​r​e​s​p​u​e​s​t​a​.​"
+			 */
+			testimonial1: string
+			/**
+			 * M​o​n​i​c​a​ ​C​a​d​a​v​i​d
+			 */
+			client1: string
+			/**
+			 * D​i​r​e​c​t​o​r​ ​G​e​n​e​r​a​l​ ​d​e​ ​P​r​o​c​e​s​o​s​ ​|​ ​G​r​u​p​o​ ​E​m​p​r​e​s​a​r​i​a​l​ ​D​A​M​A​S​A
+			 */
+			jobTitle1: string
+			/**
+			 * "​ ​L​o​r​e​m​ ​i​p​s​u​m​ ​d​o​l​o​r​ ​s​i​t​ ​a​m​e​t​,​ ​c​o​n​s​e​c​t​e​t​u​r​ ​a​d​i​p​i​s​c​i​n​g​ ​e​l​i​t​.​ ​E​t​i​a​m​ ​l​o​r​e​m​ ​n​i​s​i​,​ ​c​o​m​m​o​d​o​ ​s​e​d​ ​m​a​l​e​s​u​a​d​a​ ​n​e​c​,​ ​c​o​m​m​o​d​o​ ​i​n​ ​o​d​i​o​.​ ​P​r​a​e​s​e​n​t​ ​s​e​d​ ​v​o​l​u​t​p​a​t​ ​u​r​n​a​.​ ​P​r​o​i​n​ ​e​u​ ​m​a​l​e​s​u​a​d​a​ ​v​e​l​i​t​.​ ​F​u​s​c​e​ ​i​n​ ​v​e​n​e​n​a​t​i​s​ ​e​n​i​m​,​ ​e​u​ ​p​u​l​v​i​n​a​r​ ​m​a​u​r​i​s​.​ ​"
+			 */
+			testimonial2: string
+			/**
+			 * Y​Y​Y​Y​Y
+			 */
+			client2: string
+			/**
+			 * Z​Z​Z​Z
+			 */
+			jobTitle2: string
+			/**
+			 * "​ ​L​o​r​e​m​ ​i​p​s​u​m​ ​d​o​l​o​r​ ​s​i​t​ ​a​m​e​t​,​ ​c​o​n​s​e​c​t​e​t​u​r​ ​a​d​i​p​i​s​c​i​n​g​ ​e​l​i​t​.​ ​E​t​i​a​m​ ​l​o​r​e​m​ ​n​i​s​i​,​ ​c​o​m​m​o​d​o​ ​s​e​d​ ​m​a​l​e​s​u​a​d​a​ ​n​e​c​,​ ​c​o​m​m​o​d​o​ ​i​n​ ​o​d​i​o​.​ ​P​r​a​e​s​e​n​t​ ​s​e​d​ ​v​o​l​u​t​p​a​t​ ​u​r​n​a​.​ ​P​r​o​i​n​ ​e​u​ ​m​a​l​e​s​u​a​d​a​ ​v​e​l​i​t​.​ ​F​u​s​c​e​ ​i​n​ ​v​e​n​e​n​a​t​i​s​ ​e​n​i​m​,​ ​e​u​ ​p​u​l​v​i​n​a​r​ ​m​a​u​r​i​s​.​ ​"
+			 */
+			testimonial3: string
+			/**
+			 * Y​Y​Y​Y​Y
+			 */
+			client3: string
+			/**
+			 * Z​Z​Z​Z
+			 */
+			jobTitle3: string
+		}
+		idea: {
+			/**
+			 * ¿​T​i​e​n​e​s​ ​u​n​a​ ​i​d​e​a​?
+			 */
+			title: string
+			/**
+			 * H​a​g​a​m​o​s​ ​a​l​g​o​ ​j​u​n​t​o​s​.​ ​E​s​c​r​í​b​e​n​o​s​.
+			 */
+			subtitle: string
+			/**
+			 * H​A​B​L​E​M​O​S
+			 */
+			button: string
+		}
+	}
 }
 
 export type TranslationFunctions = {
@@ -1345,6 +1471,132 @@ export type TranslationFunctions = {
 			subtitle: () => LocalizedString
 			/**
 			 * LETS TALK
+			 */
+			button: () => LocalizedString
+		}
+	}
+	landingBiometricos: {
+		/**
+		 * PODEROSA SOLUCIÓN DE TIEMPO Y ASISTENCIA
+		 */
+		title: () => LocalizedString
+		/**
+		 * Sistema Web Centralizado para Gestión de Tiempo y Asistencia y Cálculo de Novedades de Pre-Nómina.
+		 */
+		subtitle: () => LocalizedString
+		/**
+		 * Agenda una llamada
+		 */
+		button: () => LocalizedString
+		aboutUs: {
+			/**
+			 * Sobre nosotros
+			 */
+			link: () => LocalizedString
+			/**
+			 * Desarrollo de software y productos personalizados centrado en su éxito
+			 */
+			title: () => LocalizedString
+			/**
+			 * Somos un equipo de expertos en software que trabaja con pequeñas, medianas y grandes empresas para crear MVP, aplicaciones de nivel empresarial y aumentar equipos.
+			 */
+			text1: () => LocalizedString
+			/**
+			 * Nuestra misión es ayudar a grandes empresas a crear equipos ágiles increíbles para desarrollar soluciones basadas en web y dispositivos móviles con las mejores tecnologías y prácticas para el desarrollo back-end y front-end.
+			 */
+			text2: () => LocalizedString
+			/**
+			 * Juntos construimos productos digitales inspiradores
+			 */
+			text3: () => LocalizedString
+			/**
+			 * Clientes
+			 */
+			clients: () => LocalizedString
+			/**
+			 * Comentarios positivos
+			 */
+			feedback: () => LocalizedString
+			/**
+			 * Marcas populares
+			 */
+			brands: () => LocalizedString
+			/**
+			 * + 100
+			 */
+			clientsCount: () => LocalizedString
+			/**
+			 * 90%
+			 */
+			starCount: () => LocalizedString
+			/**
+			 * + 20
+			 */
+			diamondCount: () => LocalizedString
+		}
+		productos: {
+			/**
+			 * Productos destacados
+			 */
+			title: () => LocalizedString
+		}
+		testimonials: {
+			/**
+			 * Testimonios
+			 */
+			link: () => LocalizedString
+			/**
+			 * Lo que dicen nuestros clientes
+			 */
+			title: () => LocalizedString
+			/**
+			 * "Contratamos productos ZKTeco desde 2022 para mejorar nuestro proceso de nómina, sin duda ha sido una excelente decisión: Un servicio continuo, personalizado y con excelentes tiempos de respuesta."
+			 */
+			testimonial1: () => LocalizedString
+			/**
+			 * Monica Cadavid
+			 */
+			client1: () => LocalizedString
+			/**
+			 * Director General de Procesos | Grupo Empresarial DAMASA
+			 */
+			jobTitle1: () => LocalizedString
+			/**
+			 * " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "
+			 */
+			testimonial2: () => LocalizedString
+			/**
+			 * YYYYY
+			 */
+			client2: () => LocalizedString
+			/**
+			 * ZZZZ
+			 */
+			jobTitle2: () => LocalizedString
+			/**
+			 * " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "
+			 */
+			testimonial3: () => LocalizedString
+			/**
+			 * YYYYY
+			 */
+			client3: () => LocalizedString
+			/**
+			 * ZZZZ
+			 */
+			jobTitle3: () => LocalizedString
+		}
+		idea: {
+			/**
+			 * ¿Tienes una idea?
+			 */
+			title: () => LocalizedString
+			/**
+			 * Hagamos algo juntos. Escríbenos.
+			 */
+			subtitle: () => LocalizedString
+			/**
+			 * HABLEMOS
 			 */
 			button: () => LocalizedString
 		}

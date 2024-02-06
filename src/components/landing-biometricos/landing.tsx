@@ -35,6 +35,10 @@ const LandingBiometricos = (): ReactElement => {
     };
   }
 
+  function truncateSelectUs(text: string): import('react').ReactNode {
+    return text.length > 100 ? text.substring(0, 100) + '...' : text;
+  }
+
   function CustomTabPanel(props: TabPanelProps) {
     const { children, value, index, ...other } = props;
 
@@ -77,8 +81,8 @@ const LandingBiometricos = (): ReactElement => {
         </div>
         <div className='landing-content'>
           <div className='landing-text'>
-            <h1>{LL.landing.title()}</h1>
-            <h2>{LL.landing.subtitle()}</h2>
+            <h1>{LL.landingBiometricos.title()}</h1>
+            <h2>{LL.landingBiometricos.subtitle()}</h2>
             <button
               className='button'
               onClick={() => (window.open('https://wa.me/573138138754?text=Hola,%20Select%20Us!%20', '_blank'))}
@@ -87,63 +91,58 @@ const LandingBiometricos = (): ReactElement => {
             </button>
           </div>
           <div className='landing-images'>
-            <img src='/static/images/img-landing1.png' alt='landing'></img>
+            <img src='/static/images/img-landing-biometricos.png' alt='landing'></img>
           </div>
         </div>
       </div>
-      <div className='landing-container'>
-        <div className='landing-content about-us'>
+
+
+      <div className='landing-container tech'>
+        <div className='landing-content tech'>
           <div className='landing-text'>
-            <div className='row'>
-              <a href='/nosotros' className='link'>
-                {LL.landing.aboutUs.link()}
-              </a>
-            </div>
-            <h1>{LL.landing.aboutUs.title()}</h1>
-            <h2>{LL.landing.aboutUs.text1()}</h2>
-            <h2>{LL.landing.aboutUs.text2()}</h2>
-            <div className='row'>
-              <h2 className='blue-sub-title'>{LL.landing.aboutUs.text3()}</h2>
-            </div>
-          </div>
-          <div className='landing-images'>
-            <img src='/static/images/img-landing2.png' alt='landing'></img>
-          </div>
-        </div>
-        <div className='row cards'>
-          <div className='about-card'>
-            <div className='card-icon'>
-              <img src='/static/images/icons/headset.png' alt='landing'></img>
-            </div>
-            <div className='card-text'>
-              <span>{LL.landing.aboutUs.clientsCount()}</span>
-              <div className='card-sub-text'>
-                {LL.landing.aboutUs.clients()}
-              </div>
-            </div>
-          </div>
-          <div className='about-card'>
-            <div className='card-icon'>
-              <img src='/static/images/icons/star.png' alt='landing'></img>
-            </div>
-            <div className='card-text'>
-              <span>{LL.landing.aboutUs.starCount()}</span>
-              <div className='card-sub-text'>
-                {LL.landing.aboutUs.feedback()}
-              </div>
-            </div>
-          </div>
-          <div className='about-card'>
-            <div className='card-icon'>
-              <img src='/static/images/icons/diamond.png' alt='landing'></img>
-            </div>
-            <div className='card-text'>
-              <span>{LL.landing.aboutUs.diamondCount()}</span>
-              <div className='card-sub-text'>{LL.landing.aboutUs.brands()}</div>
+
+            <h1>{LL.landingBiometricos.productos.title()}</h1>
+
+            <div className='tabs-container'>
+              <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Tabs
+                  value={value}
+                  onChange={handleChange}
+                  aria-label='basic tabs example'
+                >
+                  <Tab label='Dispositivos' {...a11yProps(0)} className='tab-item' />
+                  <Tab
+                    label='Software'
+                    {...a11yProps(1)}
+                    className='tab-item'
+                  />
+
+                </Tabs>
+              </Box>
+              <CustomTabPanel value={value} index={0}>
+
+                <div className='icons'>
+                  <img src='/static/images/products/MB10VL.png' className='img-dispositivo-2' alt='landing'></img>
+                  <img src='/static/images/products/M4.png' className='img-dispositivo' alt='landing'></img>
+                  <img src='/static/images/products/MB560VL.png' className='img-dispositivo' alt='landing'></img>
+                  <img src='/static/images/products/EFACE10.png' className='img-dispositivo' alt='landing'></img>
+                </div>
+
+              </CustomTabPanel>
+              <CustomTabPanel value={value} index={1}>
+
+                <div>
+                  <img src='/static/images/products/biotime.png' className='m-5' alt='landing'></img>
+                  <img src='/static/images/ZKBioSecurity1.png'  className='m-5' alt='landing'></img>
+                </div>
+              </CustomTabPanel>
+
             </div>
           </div>
         </div>
       </div>
+
+
 
       <div className='div-testimonials'>
         <div className='div-2-testimonials'>
@@ -172,9 +171,9 @@ const LandingBiometricos = (): ReactElement => {
             </div>
             <div className='column-2-testimonials'>
 
-            <video className='img-testimonials' controls>
-              <source src="/static/images/video-damasa.mp4" type="video/mp4"/>
-            </video>
+              <video className='img-testimonials' controls>
+                <source src="/static/images/video-damasa.mp4" type="video/mp4" />
+              </video>
 
             </div>
             <div className='column-3-testimonials'>
@@ -285,7 +284,7 @@ const LandingBiometricos = (): ReactElement => {
 
 
 
-                {/* <img
+              {/* <img
                   loading='lazy'
                   src='/static/images/wpp.png'
                   className='img-4-footer'

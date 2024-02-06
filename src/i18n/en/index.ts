@@ -257,6 +257,53 @@ const en: Translation = {
       button: 'LETS TALK',
     },
   },
+  landingBiometricos: {
+    title: 'PODEROSA SOLUCIÓN DE TIEMPO Y ASISTENCIA',
+    subtitle:
+      'Sistema Web Centralizado para Gestión de Tiempo y Asistencia y Cálculo de Novedades de Pre-Nómina.',
+    button: 'Agenda una llamada',
+
+    aboutUs: {
+      link: 'Sobre nosotros',
+      title: 'Desarrollo de software y productos personalizados centrado en su éxito',
+      text1: 'Somos un equipo de expertos en software que trabaja con pequeñas, medianas y grandes empresas para crear MVP, aplicaciones de nivel empresarial y aumentar equipos.',
+      text2: 'Nuestra misión es ayudar a grandes empresas a crear equipos ágiles increíbles para desarrollar soluciones basadas en web y dispositivos móviles con las mejores tecnologías y prácticas para el desarrollo back-end y front-end.',
+      text3: 'Juntos construimos productos digitales inspiradores',
+      clients: 'Clientes',
+      feedback: 'Comentarios positivos',
+      brands: 'Marcas populares',
+      clientsCount: '+ 100',
+      starCount: '90%',
+      diamondCount: '+ 20',
+    },
+
+    productos: {
+      title: 'Productos destacados'
+    },
+
+    testimonials: {
+      link: 'Testimonios',
+      title: 'Lo que dicen nuestros clientes',
+
+      testimonial1: '"Contratamos productos ZKTeco desde 2022 para mejorar nuestro proceso de nómina, sin duda ha sido una excelente decisión: Un servicio continuo, personalizado y con excelentes tiempos de respuesta."',
+      client1: 'Monica Cadavid',
+      jobTitle1: 'Director General de Procesos | Grupo Empresarial DAMASA',
+
+      testimonial2: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client2: 'YYYYY',
+      jobTitle2: 'ZZZZ',
+
+      testimonial3: '" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nisi, commodo sed malesuada nec, commodo in odio. Praesent sed volutpat urna. Proin eu malesuada velit. Fusce in venenatis enim, eu pulvinar mauris. "',
+      client3: 'YYYYY',
+      jobTitle3: 'ZZZZ'
+    },
+
+    idea: {      
+      title: '¿Tienes una idea?',
+      subtitle: 'Hagamos algo juntos. Escríbenos.',
+      button: 'HABLEMOS',
+    },
+  },
 };
 
 export default en;
